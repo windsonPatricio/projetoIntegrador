@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Avenger TUR</title>
+    <link rel="stylesheet" href="Designer/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="Designer/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="Designer/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="Designer/css/Header-Blue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="Designer/css/Login-Form-Dark.css">
+    <link rel="stylesheet" href="Designer/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="Designer/css/Simple-Slider.css">
+    <link rel="stylesheet" href="Designer/css/Social-Icons.css">
+    <link rel="stylesheet" href="Designer/css/styles.css">
+</head>
+
+<body style="height: 1500px;">
+    <div>
+        <div class="header-blue" style="height: 97px;">
+            <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
+                <div class="container-fluid"><a class="navbar-brand" href="#">Avenger TUR</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse"
+                        id="navcol-1">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Link</a></li>
+                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
+                                <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Pagina Inicial</a><a class="dropdown-item" role="presentation" href="#">Lista Pacotes</a><a class="dropdown-item" role="presentation" href="#">Contatos</a></div>
+                            </li>
+                        </ul>
+                        <form class="form-inline mr-auto" target="_self">
+                            <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
+                        </form><span class="navbar-text"> <a class="login" href="loja/View/login-form.php">Log In</a></span><a class="btn btn-light action-button" role="button" href="#">Cadastra-se</a></div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active"  style="height: 500px;">
+                <img src="Designer/img/page1.jpg" class="d-block w-100" alt="100px">
+            </div>
+            <div class="carousel-item"  style="height: 500px;">
+                <img src="Designer/img/page2.jpg" class="d-block w-100" alt="100px">
+            </div>
+            <div class="carousel-item" style="height: 500px;">
+                <img src="Designer/img/page3.jpg" class="d-block w-100" alt="100px">
+            </div>
+        </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+        </div>
+    </div>
+    <div class="projects-horizontal">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Pacotes Disponiveis</h2>
+                <p class="text-center">Viaje com qualidade e com segurança com os melhores pacotes de viagem do Brasil </p>
+            </div>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/desk.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Salvador</h3>
+                            <p class="description">Duas noites, saida de Natal</br> valor <b>R$ 550,00 em 2x</b></p>
+                            <button type="button" class="btn btn-dark">Ver detalhes</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/building.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Project Name</h3>
+                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/loft.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Project Name</h3>
+                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/minibus.jpeg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Project Name</h3>
+                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="social-icons"><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-youtube"></i></a></div>
+    <script src="Designer/js/jquery.min.js"></script>
+    <script src="Designer/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="Designer/js/Simple-Slider.js"></script>
+</body>
+
+</html>

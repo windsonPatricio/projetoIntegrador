@@ -15,6 +15,14 @@
         <div class="p-3 mb-2 bg-danger text-dark rounded shadow-sm">
             <h6>
                 <a class="text-decoration-none text-dark">Avenger TUR</a>
+                <div class="d-flex my-3 p-3 bg-dark text-white rounded shadow-sm">
+                    <h6 class="mr-auto"><?=$titulo?></h6>
+                    <?php if(isset($_SESSION['usuario'])){?>
+                        <h6>
+                            <a href="\logout" class="text-decoration-none text-white">Sair</a>
+                        </h6>
+                    <?php }?>
+                </div>
             </h6>
         </div>
     </header>
