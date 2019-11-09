@@ -2,7 +2,7 @@
 
 namespace Ifnc\Tads\Controller;
 
-use Ifnc\Tads\Entity\Produto;
+use Ifnc\Tads\Entity\Roteiro;
 use Ifnc\Tads\Helper\Transaction;
 
 class EditarProdutoController
@@ -10,7 +10,7 @@ class EditarProdutoController
 
     public function request(): void
     {
-        $produto = new Produto();
+        $produto = new Roteiro();
         $produto->id = $_POST['id'];
         $produto->descricao = $_POST['descricao'];
         $produto->estoque = $_POST['estoque'];

@@ -2,7 +2,7 @@
 
 namespace Ifnc\Tads\Controller;
 
-use Ifnc\Tads\Entity\Produto;
+use Ifnc\Tads\Entity\Roteiro;
 use Ifnc\Tads\Helper\Render;
 use Ifnc\Tads\Helper\Transaction;
 
@@ -18,8 +18,8 @@ class EditarProdutoFormController implements IController
                 "editar-produto-form.php",
                 "rodape.php"],
             [
-                "titulo"=>"Adicionar Produto",
-                "produto"=>Produto::find($_GET["id"])
+                "titulo"=>"Adicionar Roteiro",
+                "produto"=>Roteiro::find($_GET["id"])
             ]);
 
     }

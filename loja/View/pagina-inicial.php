@@ -33,7 +33,7 @@
                         </ul>
                         <form class="form-inline mr-auto" target="_self">
                             <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
-                        </form><span class="navbar-text"> <a class="login" href="loja/View/login-form.php">Log In</a></span><a class="btn btn-light action-button" role="button" href="#">Cadastra-se</a></div>
+                        </form><span class="navbar-text"> <a class="login" href="/login">Log In</a></span><a class="btn btn-light action-button" role="button" href="#">Cadastra-se</a></div>
                 </div>
             </nav>
         </div>
@@ -73,7 +73,7 @@
                         <div class="col">
                             <h3 class="name">Salvador</h3>
                             <p class="description">Duas noites, saida de Natal</br> valor <b>R$ 550,00 em 2x</b></p>
-                            <button type="button" class="btn btn-dark">Ver detalhes</button>
+                            <button type="submit" class="btn btn-dark" href="/login/">Ver detalhes</button>
                         </div>
                     </div>
                 </div>

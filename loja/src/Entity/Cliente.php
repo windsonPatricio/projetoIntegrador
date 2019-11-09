@@ -10,4 +10,7 @@ class Cliente extends Record
 {
     public $id;
     public $nome;
+    public $endereço;
+    public $cpf;
+    public $email;
 }

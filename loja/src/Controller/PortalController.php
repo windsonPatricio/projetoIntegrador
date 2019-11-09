@@ -11,11 +11,9 @@ class PortalController implements IController
     {
         echo Render::html(
             [
-                "cabecalho.php",
-                "rodape.php"
-            ],
-            [
-                "titulo"=>"Portal Web"
-            ]);
+                "pagina-inicial.php"
+            ],[
+
+        ]);
     }
 }

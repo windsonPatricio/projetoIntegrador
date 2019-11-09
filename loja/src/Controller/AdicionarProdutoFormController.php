@@ -15,7 +15,7 @@ class AdicionarProdutoFormController implements IController
                 "adicionar-produto-form.php",
                 "rodape.php"],
             [
-                "titulo"=>"Adicionar Produto"
+                "titulo"=>"Adicionar Roteiro"
             ]);
     }
 }

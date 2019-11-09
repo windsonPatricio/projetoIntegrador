@@ -3,7 +3,7 @@
 
 namespace Ifnc\Tads\Controller;
 
-use Ifnc\Tads\Entity\Produto;
+use Ifnc\Tads\Entity\Roteiro;
 use Ifnc\Tads\Helper\Transaction;
 
 class AdicionarProdutoController implements IController
@@ -11,7 +11,7 @@ class AdicionarProdutoController implements IController
 
     public function request(): void
     {
-        $produto = new Produto();
+        $produto = new Roteiro();
         $produto->descricao = $_POST['descricao'];
         $produto->estoque = $_POST['estoque'];
         $produto->preco_custo = $_POST['preco_custo'];

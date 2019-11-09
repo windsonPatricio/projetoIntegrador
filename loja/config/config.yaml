@@ -1,6 +1,6 @@
 #caminho padrão
 path_default:
-  /login-form
+  /portal
 # configurações de conexão ao banco de dados
 connection:
   host:
@@ -13,6 +13,7 @@ connection:
 paths_unprotected:
   - /login/
   - /404found/
+  - /lista-produtos/
 # caminho seguido quando é acessado um sem permissão
 path_unprotected_default:
   /login-form
