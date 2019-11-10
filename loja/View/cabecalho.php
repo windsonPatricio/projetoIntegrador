@@ -10,21 +10,30 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
 </head>
 <body class="bg-light">
-<header class="container">
-    <header class="container">
-        <div class="p-3 mb-2 bg-danger text-dark rounded shadow-sm">
-            <h6>
-                <a class="text-decoration-none text-dark">Avenger TUR</a>
-                <div class="d-flex my-3 p-3 bg-dark text-white rounded shadow-sm">
-                    <h6 class="mr-auto"><?=$titulo?></h6>
-                    <?php if(isset($_SESSION['usuario'])){?>
-                        <h6>
-                            <a href="\logout" class="text-decoration-none text-white">Sair</a>
-                        </h6>
-                    <?php }?>
+    <header>
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="#">Avenger TUR</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/portal">Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                    </ul>
+                    <form class="form-inline mr-auto" target="_self">
+
+                    </form>
+                    <span class="navbar-text"> <a class="login" href="/login">Log In</a></span>
+                    <a class="btn btn-light action-button" role="button" href="#">Cadastra-se</a>
                 </div>
-            </h6>
-        </div>
+
+                </div>
+            </nav>
+        <main class="container">
     </header>
-</header>
-<main class="container">
+

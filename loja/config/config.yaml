@@ -12,8 +12,8 @@ connection:
 # caminhos desprotegidos definidos por expressões regulares
 paths_unprotected:
   - /login/
+  - /portal/
   - /404found/
-  - /lista-produtos/
 # caminho seguido quando é acessado um sem permissão
 path_unprotected_default:
   /login-form

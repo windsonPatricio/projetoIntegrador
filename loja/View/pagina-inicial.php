@@ -19,26 +19,7 @@
 </head>
 
 <body style="height: 1500px;">
-    <div>
-        <div class="header-blue" style="height: 97px;">
-            <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
-                <div class="container-fluid"><a class="navbar-brand" href="#">Avenger TUR</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse"
-                        id="navcol-1">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#">Link</a></li>
-                            <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown </a>
-                                <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Pagina Inicial</a><a class="dropdown-item" role="presentation" href="#">Lista Pacotes</a><a class="dropdown-item" role="presentation" href="#">Contatos</a></div>
-                            </li>
-                        </ul>
-                        <form class="form-inline mr-auto" target="_self">
-                            <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search"></div>
-                        </form><span class="navbar-text"> <a class="login" href="/login">Log In</a></span><a class="btn btn-light action-button" role="button" href="#">Cadastra-se</a></div>
-                </div>
-            </nav>
-        </div>
-    </div>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active"  style="height: 500px;">
                 <img src="Designer/img/page1.jpg" class="d-block w-100" alt="100px">

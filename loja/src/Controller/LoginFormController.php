@@ -13,8 +13,9 @@ class LoginFormController implements IController
     {
         echo Render::html(
             [
+                "cabecalho.php",
                 "login-form.php",
-
+                "rodape.php",
             ],
             [
                 "titulo"=>"Login"
