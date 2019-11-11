@@ -28,8 +28,8 @@
                     <form class="form-inline mr-auto" target="_self">
 
                     </form>
-                    <span class="navbar-text"> <a class="login" href="/login">Log In</a></span>
-                    <a class="btn btn-light action-button" role="button" href="#">Cadastra-se</a>
+                    <span class="navbar-text"> <a class="login" href="/login" style="padding-right: 20px">Log In</a></span>
+                    <a class="btn btn-light action-button" role="button" href="/cadastro">Cadastra-se</a>
                 </div>
 
                 </div>

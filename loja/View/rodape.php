@@ -1,6 +1,19 @@
 </main>
+<head>
+    <link rel="stylesheet" href="Designer/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Designer/css/Social-Icons.css">
+    <link rel="stylesheet" href="Designer/css/styles.css">
 
-<div class="social-icons"><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-youtube"></i></a></div>
+</head>
+
+<div class="social-icons">
+    <a href="#"><i class="icon ion-social-twitter"></i></a>
+    <a href="#"><i class="icon ion-social-facebook"></i></a>
+    <a href="#"><i class="icon ion-social-snapchat"></i></a>
+    <a href="#"><i class="icon ion-social-youtube"></i></a>
+</div>
+
+
 <script src="Designer/js/jquery.min.js"></script>
 <script src="Designer/bootstrap/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>

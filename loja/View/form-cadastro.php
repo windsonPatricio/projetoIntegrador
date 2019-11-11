@@ -22,10 +22,19 @@
 </head>
 
 <body>
-    <div class="contact-clean">
+    <div class="container">
         <form method="post">
             <h2 class="text-center">Contact us</h2>
-            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+
+                <div class="form-row mb-5">
+                    <div class="col">
+                        <input name="estoque" type="text" class="form-control" placeholder="estoque">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <button class="btn btn-primary" type="submit">send </button>
+                </div>
         </form>
     </div>
     <script src="Designer/js/jquery.min.js"></script>
