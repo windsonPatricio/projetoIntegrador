@@ -3,6 +3,7 @@
 
 namespace Ifnc\Tads\Controller;
 
+use Ifnc\Tads\Entity\Hotel;
 use Ifnc\Tads\Entity\Roteiro;
 use Ifnc\Tads\Helper\Transaction;
 

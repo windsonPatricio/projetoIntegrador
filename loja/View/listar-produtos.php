@@ -13,16 +13,16 @@
             </tr>
         </thead>
         <tbody>
-        <?php foreach($produtos as $roteiro){ ?>
+        <?php foreach($hotel as $hotel2){ ?>
             <tr>
-                <th scope="row"><?=$roteiro->id?></th>
-                <td><?=$roteiro->descricao?></td>
-                <td><?=$roteiro->data_de_ida?></td>
-                <td><?=$roteiro->data_de_volta?></td>
+                <th scope="row"><?=$hotel2->id?></th>
+                <td><?=$hotel2->nome?></td>
+                <td><?=$hotel2->valorDiaria?></td>
+                <td><?=$hotel2->telefone?></td>
 
                 <td>
-                    <a href="\apagar-produto?id=<?=$roteiro->id?>" class="fas fa-eraser text-dark text-decoration-none mr-2"></a>
-                    <a href="\editar-produto-form?id=<?=$roteiro->id?>" class="fas fa-edit text-dark text-decoration-none mr-2"></a>
+                    <a href="\apagar-produto?id=<?=$hotel2->id?>" class="fas fa-eraser text-dark text-decoration-none mr-2"></a>
+                    <a href="\editar-produto-form?id=<?=$hotel2->id?>" class="fas fa-edit text-dark text-decoration-none mr-2"></a>
                 </td>
             </tr>
         <?php } ?>

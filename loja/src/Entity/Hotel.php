@@ -11,7 +11,7 @@ class Hotel extends Record
     public $id;
     public $nome;
     public $endereco;
-    public $telfone;
+    public $telefone;
     public $valorDiaria;
 
 }
