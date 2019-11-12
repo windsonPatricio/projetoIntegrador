@@ -11,16 +11,15 @@ class AdicionarProdutoController implements IController
 
     public function request(): void
     {
-        $produto = new Roteiro();
-        $produto->descricao = $_POST['descricao'];
-        $produto->estoque = $_POST['estoque'];
-        $produto->preco_custo = $_POST['preco_custo'];
-        $produto->preco_venda = $_POST['preco_venda'];
-        $produto->codigo_barras =  $_POST['codigo_barras'];
-        $produto->data_cadastro = date('Y-m-d');
-        $produto->origem =  $_POST['origem'];
+        $hotel = new Hotel();
+        $hotel->nome = $_POST['nome'];
+        $hotel->endereco = $_POST['endereco'];
+        $hotel->telefone = $_POST['telefone'];
+        $hotel->valorDiaria = $_POST['valorDiaria'];
+        $hotel->dataCadastro = date('Y-m-d');
+
         Transaction::open();
-        $produto->store();
+        $hotel->store();
         Transaction::close();
         header('Location: /listar-produtos', true, 302);
         exit();

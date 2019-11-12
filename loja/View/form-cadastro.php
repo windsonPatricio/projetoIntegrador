@@ -23,12 +23,22 @@
 
 <body>
     <div class="container">
-        <form method="post">
+        <form action="/adicionar-produto" method="post">
             <h2 class="text-center">Contact us</h2>
 
                 <div class="form-row mb-5">
                     <div class="col">
-                        <input name="estoque" type="text" class="form-control" placeholder="estoque">
+                        <input name="nome" type="text" class="form-control" placeholder="Nome">
+                    </div>
+                </div>
+                <div class="form-row mb-5">
+                    <div class="col">
+                        <input name="valorDiaria" type="text" class="form-control" placeholder="Valor Diaria">
+                    </div>
+                </div>
+                <div class="form-row mb-5">
+                    <div class="col">
+                        <input name="telefone" type="text" class="form-control" placeholder="Telefone">
                     </div>
                 </div>
 
