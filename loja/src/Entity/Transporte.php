@@ -6,13 +6,10 @@ namespace Ifnc\Tads\Entity;
 
 use Ifnc\Tads\Helper\Record;
 
-class AgenteViagem extends Record
+class Transporte extends Record
 {
     public $id;
     public $nome;
-    public $dataAdmissao;
-    public $usuario;
-    public $senha;
-
-
+    public $tipo;
+    public $valordoFrete;
 }

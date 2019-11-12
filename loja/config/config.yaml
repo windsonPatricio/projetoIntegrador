@@ -13,6 +13,7 @@ connection:
 paths_unprotected:
   - /login/
   - /portal/
+  - /cadastro/
   - /404found/
 # caminho seguido quando é acessado um sem permissão
 path_unprotected_default:
