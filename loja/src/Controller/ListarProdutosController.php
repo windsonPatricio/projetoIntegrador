@@ -1,7 +1,7 @@
 <?php
 
 namespace Ifnc\Tads\Controller;
-use Ifnc\Tads\Entity\Hotel;
+use Ifnc\Tads\Entity\Estadia;
 use Ifnc\Tads\Entity\Roteiro;
 use Ifnc\Tads\Helper\Render;
 use Ifnc\Tads\Helper\Transaction;
@@ -18,7 +18,7 @@ class ListarProdutosController implements IController
                 "rodape.php"
             ],
             [
-                "hotel" => Hotel::all(),
+                "hotel" => Estadia::all(),
                 "titulo"=> "Lista de Produtos"
             ]
         );

@@ -11,5 +11,8 @@ class Eventos extends Record
     public $id;
     public $nome;
     public $tipo;
-    public $valordeEntrada;
+    public $valor;
+    public $data;
+    public $hora;
+
 }

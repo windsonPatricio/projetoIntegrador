@@ -9,6 +9,8 @@ use Ifnc\Tads\Helper\Record;
 class Usuario extends Record
 {
     public $id;
+    public $nome;
+    public $endereco;
     public $email;
     public $senha;
 

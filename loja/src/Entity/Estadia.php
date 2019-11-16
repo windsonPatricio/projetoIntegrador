@@ -6,10 +6,11 @@ namespace Ifnc\Tads\Entity;
 
 use Ifnc\Tads\Helper\Record;
 
-class Hotel extends Record
+class Estadia extends Record
 {
     public $id;
     public $nome;
+    public $tipo;
     public $endereco;
     public $telefone;
     public $valorDiaria;
