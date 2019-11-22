@@ -20,6 +20,7 @@
                 <td><?=$hotel2->nome?></td>
                 <td><?=$hotel2->valorDiaria?></td>
                 <td><?=$hotel2->telefone?></td>
+                <td></td>
 
                 <td>
                     <a href="\apagar-produto?id=<?=$hotel2->id?>" class="fas fa-eraser text-dark text-decoration-none mr-2"></a>
