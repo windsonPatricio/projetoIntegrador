@@ -15,7 +15,7 @@ class PortalController implements IController
                 "pagina-inicial.php",
                 "rodape.php"
             ],[
-
+                "titulo"=>"AvengerTUR"
         ]);
     }
 }

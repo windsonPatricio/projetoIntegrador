@@ -13,23 +13,27 @@
     <header>
 
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <a class="navbar-brand" href="#">Avenger TUR</a>
+                <a class="navbar-brand" href="/portal">Avenger TUR</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
+            <?php if(isset($_SESSION['usuario'])){?>
+                <form class="form-inline mr-auto" target="_self">
+                </form>
                 <div class="collapse navbar-collapse" id="navbarColor01">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/portal">Home <span class="sr-only">(current)</span></a>
-                        </li>
+                    <h6>
+                        <a href="\logout" class="text-decoration-none text-white">Sair</a>
+                    </h6>
+                </div>
+            <?php } else{?>
 
-                    </ul>
-                    <form class="form-inline mr-auto" target="_self">
-
-                    </form>
+                <form class="form-inline mr-auto" target="_self">
+                </form>
                     <span class="navbar-text"> <a class="login" href="/login" style="padding-right: 20px">Log In</a></span>
                     <a class="btn btn-light action-button" role="button" href="/cadastro">Cadastra-se</a>
+                    <?php }?>
+
+
                 </div>
 
                 </div>
