@@ -14,7 +14,7 @@ class AdicionarProdutoController implements IController
     {
         $hotel = new Estadia();
         $hotel->nome = $_POST['nome'];
-        $hotel->endereco = $_POST['endereco'];
+       // $hotel->endereco = $_POST['endereco'];
         $hotel->telefone = $_POST['telefone'];
         $hotel->valorDiaria = $_POST['valorDiaria'];
         $hotel->dataCadastro = date('Y-m-d');

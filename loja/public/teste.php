@@ -23,17 +23,9 @@ $nada->descricao="vai dar certo!!";
 $nada->data_de_ida= "22/08/1994";
 $nada->data_de_volta= "01/05/2020";
 
-$hotel = new Estadia();
-$hotel->nome = "Hotel passa e fica";
-$hotel->endereco = "Rua dos alfeneiros";
-$hotel->telefone = "84 99172840";
-$hotel->valorDiaria = 200;
-$hotel->dataCadastro = date('Y-m-d');
 
 
-Transaction::open();
-$hotel->store();
-Transaction::close();
+
 
 
 

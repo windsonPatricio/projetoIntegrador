@@ -12,7 +12,7 @@ class AdicionarProdutoFormController implements IController
         echo Render::html(
             [
                 "cabecalho.php",
-                "adicionar-produto-form.php",
+                "CadastroClienteController.php",
                 "rodape.php"],
             [
                 "titulo"=>"Adicionar Roteiro"

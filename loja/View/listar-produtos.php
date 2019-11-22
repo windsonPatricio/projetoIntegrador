@@ -10,6 +10,7 @@
                 <th scope="col">descricao</th>
                 <th scope="col">data de ida</th>
                 <th scope="col">data de volta</th>
+                <th scope="col">ações</th>
             </tr>
         </thead>
         <tbody>
