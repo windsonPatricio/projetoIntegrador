@@ -2,16 +2,30 @@
 <br><br>
 <div class="container">
     <form action="/adicionar-produto" method="post">
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="inputEmail4">E-mail</label>
-                <input type="email" class="form-control" name="email" id="inputEmail4" placeholder="Email">
-            </div>
-            <div class="form-group col-md-6">
-                <label for="inputPassword4">senha</label>
-                <input type="password" class="form-control" name="senha" id="inputPassword4" placeholder="Password">
-            </div>
+        <div class="form-group">
+            <label for="inputAddress2">Nome</label>
+            <input type="text" class="form-control" name="nome" id="inputAddress2" placeholder="Seu nome">
         </div>
+        <div class="form-row">
+            <div class="form-group col-md-3">
+                <label for="inputCity">CPF</label>
+                <input type="text" name="CPF" class="form-control" id="inputCity"  maxlength="14" OnKeyPress="formatar('###.###.###-##', this)">
+            </div>
+             <div class="form-group col-md-4">
+                    <label for="inputCity">Data de Nascimento</label>
+                    <input type="text" name="dataNascimento" class="form-control" id="inputCity"  maxlength="10" OnKeyPress="formatar('##/##/####', this)">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputState">Sexo</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Selecione...</option>
+                        <option>Feminino</option>
+                        <option>Masculino</option>
+                        <option>Outros</option>
+                    </select>
+                </div>
+
+         </div>
         <div class="form-group">
             <label for="inputAddress2">Endereço</label>
             <input type="text" class="form-control" name="endereco" id="inputAddress2" placeholder="Rua, Sitio, Fazenda...">
@@ -24,7 +38,7 @@
             <div class="form-group col-md-4">
                 <label for="inputState">Estado</label>
                 <select id="inputState" class="form-control">
-                    <option selected>Choose...</option>
+                    <option selected>Selecione...</option>
                     <option>Acre (AC)</option>
                     <option>Alagoas (AL)</option>
                     <option>Amapá (AP)</option>
@@ -55,17 +69,34 @@
 
                 </select>
             </div>
-
         </div>
-        <div class="form-group">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                    Check me out
-                </label>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">E-mail</label>
+                    <input type="email" class="form-control" name="email" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">senha</label>
+                    <input type="password" class="form-control" name="senha" id="inputPassword4" placeholder="Password">
+                </div>
             </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
+
+        <br>
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+        <button type="submit" class="btn btn-primary" href="/listar-produtos">Cancelar</button>
+        <br>
+
     </form>
 </div>
+<script>
+    function formatar(mascara, documento){
+        var i = documento.value.length;
+        var saida = mascara.substring(0,1);
+        var texto = mascara.substring(i)
+
+        if (texto.substring(0,1) != saida){
+            documento.value += texto.substring(0,1);
+        }
+    }
+</script>
 </body>

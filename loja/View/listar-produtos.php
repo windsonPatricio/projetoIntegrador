@@ -1,6 +1,6 @@
 <div class="my-3 p-3 bg-white rounded shadow-sm">
     <span class="d-block text-center mb-3">
-        <a href="/adicionar-produto-form" class="fas fa-plus text-dark text-decoration-none"></a>
+        <a href="/cadastro-cliente" class="fas fa-plus text-dark text-decoration-none"></a>
     </span>
     <table class="table">
         <thead>
