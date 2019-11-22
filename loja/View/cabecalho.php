@@ -18,17 +18,14 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             <?php if(isset($_SESSION['usuario'])){?>
-                <form class="form-inline mr-auto" target="_self">
-                </form>
                 <div class="collapse navbar-collapse" id="navbarColor01">
-                    <h6>
-                        <a href="\logout" class="text-decoration-none text-white">Sair</a>
-                    </h6>
+                    <div class=""float-right">
+                        <h6>
+                            <a href="\logout" class="text-decoration-none text-white">SAIR</a>
+                        </h6>
+                    </div>
                 </div>
             <?php } else{?>
-
-                <form class="form-inline mr-auto" target="_self">
-                </form>
                     <span class="navbar-text"> <a class="login" href="/login" style="padding-right: 20px">Log In</a></span>
                     <a class="btn btn-light action-button" role="button" href="/cadastro">Cadastra-se</a>
                     <?php }?>
