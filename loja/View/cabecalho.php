@@ -20,6 +20,7 @@
             <?php if(isset($_SESSION['usuario'])){?>
                 <form class="form-inline mr-auto" target="_self">
                 </form>
+                <br>
                 <div class="collapse navbar-collapse" id="navbarColor01">
                     <h6>
                         <a href="\logout" class="text-decoration-none text-white">Sair</a>
