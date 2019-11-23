@@ -17,7 +17,7 @@ paths_unprotected:
   - /404found/
 # caminho seguido quando é acessado um sem permissão
 path_unprotected_default:
-  /login-form
+  /portal
 # caminho seguido quando é acessado um inexistente
 path_not_found:
   /404found

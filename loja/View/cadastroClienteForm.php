@@ -1,7 +1,7 @@
 <body>
 <br><br>
 <div class="container">
-    <form action="/adicionar-produto" method="post">
+    <form action="/cadastro-cliente" method="post">
         <div class="form-group">
             <label for="inputAddress2">Nome</label>
             <input type="text" class="form-control" name="nome" id="inputAddress2" placeholder="Seu nome">
@@ -17,7 +17,7 @@
                 </div>
                 <div class="form-group col-md-2">
                     <label for="inputState">Sexo</label>
-                    <select id="inputState" class="form-control">
+                    <select id="inputState" name="sexo" class="form-control">
                         <option selected>Selecione...</option>
                         <option>Feminino</option>
                         <option>Masculino</option>
@@ -37,7 +37,7 @@
             </div>
             <div class="form-group col-md-4">
                 <label for="inputState">Estado</label>
-                <select id="inputState" class="form-control">
+                <select id="inputState" name="estado" class="form-control">
                     <option selected>Selecione...</option>
                     <option>Acre (AC)</option>
                     <option>Alagoas (AL)</option>
@@ -82,8 +82,8 @@
             </div>
 
         <br>
-        <button type="submit" class="btn btn-primary">Cadastrar</button>
-        <button type="submit" class="btn btn-primary" href="/listar-produtos">Cancelar</button>
+        <button type="submit"  class="btn btn-primary" >Cadastrar</button>
+        <a class="btn btn-primary" href="/portal">Cancelar</a>
         <br>
 
     </form>

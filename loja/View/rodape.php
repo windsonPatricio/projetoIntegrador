@@ -14,13 +14,16 @@
     <link rel="stylesheet" href="Designer/css/styles.css">
 
 </head>
+<footer class="fixed-bottom">
+    <div class="social-icons">
+        <a href="hhthth"><i class="icon ion-social-twitter"></i></a>
+        <a href="#"><i class="icon ion-social-facebook"></i></a>
+        <a href="#"><i class="icon ion-social-snapchat"></i></a>
+        <a href="#"><i class="icon ion-social-youtube"></i></a>
+    </div>
 
-<div class="social-icons">
-    <a href="hhthth"><i class="icon ion-social-twitter"></i></a>
-    <a href="#"><i class="icon ion-social-facebook"></i></a>
-    <a href="#"><i class="icon ion-social-snapchat"></i></a>
-    <a href="#"><i class="icon ion-social-youtube"></i></a>
-</div>
+
+</footer>
 
 
 <script src="Designer/js/jquery.min.js"></script>
