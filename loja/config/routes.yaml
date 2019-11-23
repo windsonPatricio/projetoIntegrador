@@ -11,5 +11,5 @@
 /editar-produto-form: EditarProdutoFormController
 /editar-produto:  EditarProdutoController
 /404found:  path404Controller
-/cadastra-cliente: CadatroClienteController
-/cadastro-cliente: CadastroClienteFormController
+/cadastro-cliente: CadastroClienteController
+/cadastro-cliente-form: CadastroClienteFormController

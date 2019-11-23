@@ -27,7 +27,7 @@
                 </div>
             <?php } else{?>
                     <span class="navbar-text"> <a class="login" href="/login" style="padding-right: 20px">Log In</a></span>
-                    <a class="btn btn-light action-button" role="button" href="/cadastro">Cadastra-se</a>
+                    <a class="btn btn-light action-button" role="button" href="/cadastro-cliente-form">Cadastra-se</a>
                     <?php }?>
 
 

@@ -1,4 +1,4 @@
-<div class="my-3 p-3 bg-white rounded shadow-sm">
+<div class="container mt-3 bg-white rounded shadow-sm flex-row">
     <span class="d-block text-center mb-3">
         <a href="/cadastro-cliente" class="fas fa-plus text-dark text-decoration-none"></a>
     </span>
