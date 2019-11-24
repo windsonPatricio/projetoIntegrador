@@ -3,6 +3,7 @@
 namespace Ifnc\Tads\Controller;
 use Ifnc\Tads\Entity\Estadia;
 use Ifnc\Tads\Entity\Roteiro;
+use Ifnc\Tads\Entity\Usuario;
 use Ifnc\Tads\Helper\Render;
 use Ifnc\Tads\Helper\Transaction;
 
@@ -18,7 +19,7 @@ class ListarProdutosController implements IController
                 "rodape.php"
             ],
             [
-                "hotel" => Estadia::all(),
+                "clientes" => Usuario::all(),
                 "titulo"=> "Lista de Produtos"
             ]
         );

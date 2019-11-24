@@ -4,6 +4,7 @@ namespace Ifnc\Tads\Controller;
 
 use Ifnc\Tads\Entity\Estadia;
 use Ifnc\Tads\Entity\Roteiro;
+use Ifnc\Tads\Entity\Usuario;
 use Ifnc\Tads\Helper\Transaction;
 
 class ApagarProdutoController implements IController
@@ -13,7 +14,7 @@ class ApagarProdutoController implements IController
     {
         $id = $_GET["id"];
         Transaction::open();
-        Estadia::delete($id);
+        Usuario::delete($id);
         Transaction::close();
         header('Location: /listar-produtos', true, 302);
         exit();

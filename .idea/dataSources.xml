@@ -21,5 +21,14 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="tads.db" uuid="2028f11f-e6de-4826-99cd-4939921a0981">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/loja/tads.db</jdbc-url>
+      <driver-properties>
+        <property name="enable_load_extension" value="true" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>
