@@ -22,18 +22,18 @@
 <div class="align-content-center">
         <nav class="menu-navigation-dark">
             <div class="container row-2">
-                <a href="#"><i class="fa fa-camera-retro"></i><span>Pictures</span></a>
-                <a href="#"><i class="fa fa-code"></i><span>Code</span></a>
-                <a href="#"><i class="fa fa-comment"></i><span>Talks</span></a>
-                <a href="#"><i class="fa fa-plane"></i><span>Travel</span></a>
-                <a href="#"><i class="fa fa-heart"></i><span>Favorites</span></a>
+                <a href="#"><i class="fa fa-camera-retro fa-3x" ></i><span>Pictures</span></a>
+                <a href="#"><i class="fa fa-cogs fa-3x"></i><span>Code</span></a>
+                <a href="#"><i class="fa fa-comment fa-3x"></i><span>Talks</span></a>
+                <a href="#"><i class="fa fa-pencil-square fa-3x"></i><span>Travel</span></a>
+                <a href="#"><i class="fa fa-archive fa-3x"></i><span>Favorites</span></a>
             </div>
-            <div >
-                <a href="#"><i class="fa fa-home"></i><span>Pictures</span></a>
-                <a href="#"><i class="fa fa-code"></i><span>Code</span></a>
-                <a href="#"><i class="fa fa-bus"></i><span>Talks</span></a>
-                <a href="#"><i class="fa fa-plane"></i><span>Travel</span></a>
-                <a href="#"><i class="fa fa-car"></i><span>Favorites</span></a>
+            <div class="container row-2">
+                <a href="#"><i class="fa fa-home fa-3x" ></i><span>Pictures</span></a>
+                <a href="#"><i class="fa fa-code fa-3x"></i><span>Code</span></a>
+                <a href="#"><i class="fa fa-bus fa-3x"></i><span>Talks</span></a>
+                <a href="#"><i class="fa fa-remove fa-3x"></i><span>Travel</span></a>
+                <a href="#"><i class="fa fa-car fa-3x" ></i><span>Favorites</span></a>
             </div>
         </nav>
 </div>
