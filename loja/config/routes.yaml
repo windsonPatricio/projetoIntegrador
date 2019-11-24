@@ -1,5 +1,6 @@
 #Configuração de rotas
 /portal:  PortalController
+/portalAdm: PortalAdmController
 /cadastro: CadastroController
 /login-form:  LoginFormController
 /login: LoginController
