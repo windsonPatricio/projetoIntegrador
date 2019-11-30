@@ -21,21 +21,102 @@
 <body>
 <div class="align-content-center">
         <nav class="menu-navigation-dark">
+        <div class="container row-2">
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card text-white bg-primary">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Primary card title</h4>
+                            <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card text-white bg-primary">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Primary card title</h4>
+                            <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card text-white bg-primary">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Primary card title</h4>
+                            <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
             <div class="container row-2">
-                <a href="#"><i class="fa fa-camera-retro fa-3x" ></i><span>Pictures</span></a>
-                <a href="#"><i class="fa fa-cogs fa-3x"></i><span>Code</span></a>
-                <a href="#"><i class="fa fa-comment fa-3x"></i><span>Talks</span></a>
-                <a href="#"><i class="fa fa-pencil-square fa-3x"></i><span>Travel</span></a>
-                <a href="#"><i class="fa fa-archive fa-3x"></i><span>Favorites</span></a>
+                <div class="card-columns">
+                    <div class="card">
+                        <div class="card text-white bg-primary">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Primary card title</h4>
+                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card text-white bg-primary">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Primary card title</h4>
+                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card text-white bg-primary">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Primary card title</h4>
+                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="container row-2">
-                <a href="#"><i class="fa fa-home fa-3x" ></i><span>Pictures</span></a>
-                <a href="#"><i class="fa fa-code fa-3x"></i><span>Code</span></a>
-                <a href="#"><i class="fa fa-bus fa-3x"></i><span>Talks</span></a>
-                <a href="#"><i class="fa fa-remove fa-3x"></i><span>Travel</span></a>
-                <a href="#"><i class="fa fa-car fa-3x" ></i><span>Favorites</span></a>
+                <div class="card-columns">
+                    <div class="card">
+                        <div class="card text-white bg-primary">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Primary card title</h4>
+                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card text-white bg-primary">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Primary card title</h4>
+                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card text-white bg-primary">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Primary card title</h4>
+                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
+
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

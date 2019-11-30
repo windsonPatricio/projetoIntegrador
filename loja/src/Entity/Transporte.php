@@ -11,5 +11,5 @@ class Transporte extends Record
     public $id;
     public $nome;
     public $tipo;
-    public $valordoFrete;
+    public $valorFrete;
 }

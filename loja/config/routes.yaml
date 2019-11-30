@@ -14,3 +14,7 @@
 /404found:  path404Controller
 /cadastro-cliente: CadastroClienteController
 /cadastro-cliente-form: CadastroClienteFormController
+/cadastro-Estadia: CadastroEstadiaController
+/cadastro-Estadia-form: CadastroEstadiaFormController
+/cadastro-Transporte: CadastroTransporteController
+/cadastro-Transporte-form: CadastroTransporteFormController

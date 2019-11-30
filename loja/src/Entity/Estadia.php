@@ -12,6 +12,8 @@ class Estadia extends Record
     public $nome;
     public $tipo;
     public $endereco;
+    public $cidade;
+    public $estado;
     public $telefone;
     public $valorDiaria;
 
