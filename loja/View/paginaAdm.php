@@ -91,7 +91,7 @@
                             <div class="card-header">Header</div>
                             <div class="card-body">
                                 <h4 class="card-title">Primary card title</h4>
-                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                                <a href="#"><i class="fa fa-hotel fa-1x"></i></a>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@
                             <div class="card-header">Header</div>
                             <div class="card-body">
                                 <h4 class="card-title">Primary card title</h4>
-                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                                <a href="/cadastro-Estadia-form"><i class="fa fa-bus fa-1x"></i></a>
                             </div>
                         </div>
                     </div>
@@ -109,7 +109,7 @@
                             <div class="card-header">Header</div>
                             <div class="card-body">
                                 <h4 class="card-title">Primary card title</h4>
-                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                                <a href="/cadastro-Transporte-form"><i class="fa fa-car fa-1x"></i></a>
                             </div>
                         </div>
                     </div>

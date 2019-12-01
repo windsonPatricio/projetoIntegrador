@@ -65,12 +65,12 @@
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label for="inputCity">Valor do Frete</label>
-                <input type="text" name="valorFrete" class="form-control" id="inputCity" OnKeyPress="formatar('R$ #.###,##', this)">
+                <label for="dinheiro">Valor do Frete</label>
+                <input type="text" name="dinheiro" id="dinheiro" class="form-control" id="dinheiro">
             </div>
             <div class="form-group col-md-6">
                 <label for="inputCity">Telefone</label>
-                <input type="" name="telefone" class="form-control" id="inputCity"  OnKeyPress="formatar('(##) #####-####', this)">
+                <input type="text" name="telefone" class="form-control" id="inputCity" minlength="13" maxlength="13" OnKeyPress="formatar('## #####-####', this)">
             </div>
         </div>
 
@@ -80,16 +80,9 @@
         <br>
 
     </form>
+    <script>
+        $('.dinheiro').mask('#.##0,00', {reverse: true});
+    </script>
 </div>
-<script>
-    function formatar(mascara, documento){
-        var i = documento.value.length;
-        var saida = mascara.substring(0,1);
-        var texto = mascara.substring(i)
 
-        if (texto.substring(0,1) != saida){
-            documento.value += texto.substring(0,1);
-        }
-    }
-</script>
 </body>
