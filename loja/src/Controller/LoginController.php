@@ -33,7 +33,7 @@ class LoginController implements IController
             exit();
         }
         $_SESSION["usuario"]=$usuario;
-        header('Location: /cadastro-Transporte-form');
+        header('Location: /portalAdm');
         exit();
     }
 }

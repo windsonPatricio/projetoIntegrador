@@ -13,7 +13,7 @@ class CadastroEstadiaFormController implements IController
         echo Render::html(
             [
                 "cabecalho.php",
-                "cadastro-estadia.php",
+                "cadastroEstadiaForm.php",
                 "rodape.php"],
             [
                 // "titulo"=>"Cadastro de Cliente"
