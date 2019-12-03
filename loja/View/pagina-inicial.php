@@ -54,7 +54,7 @@
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/desk.jpg"></a></div>
                         <div class="col">
-                            <h3 class="name">Salvador</h3>
+                            <h3 class="name"><?=$estadia->cidade?><?=$estadia->estado?> </h3>
                             <p class="description">hospedagem em <?=$estadia->nome?></br> valor <b><?=$estadia->valorDiaria?></b></p>
                             <button type="submit" class="btn btn-dark" href="/login/">Ver detalhes</button>
                         </div>
