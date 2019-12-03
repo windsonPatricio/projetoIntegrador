@@ -19,8 +19,8 @@ class ListarEstadiaController implements IController
                 "rodape.php"
             ],
             [
-                "estadia" => Usuario::all(),
-                "titulo"=> "Lista de Produtos"
+                "estadia" => Estadia::all(),
+                "titulo"=> "Lista de Estadias"
             ]
         );
     }

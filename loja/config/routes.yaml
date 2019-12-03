@@ -6,6 +6,7 @@
 /login: LoginController
 /logout:  LogoutController
 /listar-produtos: ListarProdutosController
+/listar-Estadia: ListarEstadiaController
 /adicionar-produto-form:  AdicionarProdutoFormController
 /adicionar-produto: AdicionarProdutoController
 /apagar-produto:  ApagarProdutoController

@@ -37,7 +37,7 @@
                     <div class="card text-white bg-primary">
                         <div class="card-header">Header</div>
                         <div class="card-body">
-                            <h4 class="card-title">Primary card title</h4>
+                            <h4 class="card-title">Lista de Usuarios</h4>
                             <a href="/listar-produtos"><i class="fa fa-list fa-1x"></i></a>
                         </div>
                     </div>
@@ -59,8 +59,8 @@
                         <div class="card text-white bg-primary">
                             <div class="card-header">Header</div>
                             <div class="card-body">
-                                <h4 class="card-title">Primary card title</h4>
-                                <a href="/cadastro-Estadia-form"><i class="fa fa-file-picture-o fa-1x"></i></a>
+                                <h4 class="card-title">Cadastrar eventos</h4>
+                                <a href="/cadastro-Evento-form"><i class="fa fa-file-picture-o fa-1x"></i></a>
                             </div>
                         </div>
                     </div>

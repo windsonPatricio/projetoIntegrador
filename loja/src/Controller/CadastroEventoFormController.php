@@ -6,7 +6,7 @@ namespace Ifnc\Tads\Controller;
 
 use Ifnc\Tads\Helper\Render;
 
-class CadastroEstadiaFormController implements IController
+class CadastroEventoFormController implements IController
 {
     public function request(): void
     {

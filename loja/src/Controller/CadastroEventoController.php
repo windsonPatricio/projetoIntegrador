@@ -10,7 +10,7 @@ use Ifnc\Tads\Entity\Usuario;
 use Ifnc\Tads\Helper\Record;
 use Ifnc\Tads\Helper\Transaction;
 
-class CadastroEstadiaController implements IController
+class CadastroEventoController implements IController
 {
 
     public function request(): void
