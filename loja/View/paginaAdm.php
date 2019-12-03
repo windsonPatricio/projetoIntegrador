@@ -28,7 +28,7 @@
                     <div class="card text-white bg-primary">
                         <div class="card-header">Header</div>
                         <div class="card-body">
-                            <h4 class="card-title">Primary card title</h4>
+                            <h4 class="card-title">Cadastra Pacote</h4>
                             <a href="#"><i class="fa fa-archive fa-1x"></i></a>
                         </div>
                     </div>
@@ -46,45 +46,13 @@
                     <div class="card text-white bg-primary">
                         <div class="card-header">Header</div>
                         <div class="card-body">
-                            <h4 class="card-title">Primary card title</h4>
+                            <h4 class="card-title">Cadastra Agente de Viagem</h4>
                             <a href="/cadastro-agente-form"><i class="fa fa-user fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-            <div class="container row-2">
-                <div class="card-columns">
-                    <div class="card">
-                        <div class="card text-white bg-primary">
-                            <div class="card-header">Header</div>
-                            <div class="card-body">
-                                <h4 class="card-title">Primary card title</h4>
-                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card text-white bg-primary">
-                            <div class="card-header">Header</div>
-                            <div class="card-body">
-                                <h4 class="card-title">Primary card title</h4>
-                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card text-white bg-primary">
-                            <div class="card-header">Header</div>
-                            <div class="card-body">
-                                <h4 class="card-title">Primary card title</h4>
-                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="container row-2">
                 <div class="card-columns">
                     <div class="card">
@@ -100,7 +68,7 @@
                         <div class="card text-white bg-primary">
                             <div class="card-header">Header</div>
                             <div class="card-body">
-                                <h4 class="card-title">Primary card title</h4>
+                                <h4 class="card-title">Adicionar Hotel</h4>
                                 <a href="/cadastro-Estadia-form"><i class="fa fa-hotel fa-1x"></i></a>
                             </div>
                         </div>
@@ -109,7 +77,7 @@
                         <div class="card text-white bg-primary">
                             <div class="card-header">Header</div>
                             <div class="card-body">
-                                <h4 class="card-title">Primary card title</h4>
+                                <h4 class="card-title">Adicionar Transporte</h4>
                                 <a href="/cadastro-Transporte-form"><i class="fa fa-car fa-1x"></i></a>
                             </div>
                         </div>
