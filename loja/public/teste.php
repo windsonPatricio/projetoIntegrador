@@ -3,6 +3,7 @@
 use Ifnc\Tads\Entity\Cliente;
 use Ifnc\Tads\Entity\Estadia;
 use Ifnc\Tads\Entity\Roteiro;
+use Ifnc\Tads\Entity\TipoUsuario;
 use Ifnc\Tads\Entity\Venda;
 use Ifnc\Tads\Helper\Transaction;
 use Ifnc\Tads\Mapper\VendaMapper;
@@ -16,12 +17,30 @@ require "../vendor/autoload.php";
 
 //echo password_verify('143',$hash);
 
-$nada = new Roteiro();
+$coisa = new TipoUsuario();
 
 
-$nada->descricao="vai dar certo!!";
-$nada->data_de_ida= "22/08/1994";
-$nada->data_de_volta= "01/05/2020";
+$coisa->id = 1;
+$coisa->tipo = "Administrador";
+
+Transaction::open();
+$coisa->store();
+Transaction::close();
+
+/*nada->id=2;
+$nada->tipo = "Agente";
+
+Transaction::open();
+$nada->store();
+Transaction::close();
+
+$nada->id=3;
+$nada->tipo = "Cliente";
+
+Transaction::open();
+$nada->store();
+Transaction::close();
+*/
 
 
 

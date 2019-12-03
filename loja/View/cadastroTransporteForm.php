@@ -76,13 +76,12 @@
 
         <br>
         <button type="submit"  class="btn btn-primary" >Cadastrar</button>
-        <a class="btn btn-primary" href="/portal">Cancelar</a>
+        <a class="btn btn-primary" href="/portalAdm">Cancelar</a>
         <br>
 
     </form>
-    <script>
-        $('.dinheiro').mask('#.##0,00', {reverse: true});
-    </script>
+    <script src="https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js"></script>
+    <script> $('.dinheiro').mask('#.##0,00', {reverse: true});</script>
 </div>
 
 </body>

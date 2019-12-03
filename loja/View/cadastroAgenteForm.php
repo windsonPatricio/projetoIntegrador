@@ -83,7 +83,7 @@
 
         <br>
         <button type="submit"  class="btn btn-primary" >Cadastrar</button>
-        <a class="btn btn-primary" href="/portal">Cancelar</a>
+        <a class="btn btn-primary" href="/portalAdm">Cancelar</a>
         <br>
 
     </form>

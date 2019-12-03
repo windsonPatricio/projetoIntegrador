@@ -29,6 +29,15 @@ class CadastroClienteController implements IController
         Transaction::open();
         $cliente->store();
         Transaction::close();
+
+        $coisa = new TipoUsuario();
+        $coisa->id = 3;
+        $coisa->tipo = "cliente";
+
+        Transaction::open();
+        $coisa->store();
+        Transaction::close();
+
         header('Location: /listar-produtos', true, 302);
         exit();
     }

@@ -19,16 +19,17 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
             <?php if(isset($_SESSION['usuario'])){?>
-                <div class="collapse navbar-collapse" id="navbarColor01">
-                    <div class=""float-right">
+                <div class="collapse navbar-collapse " id="navbarColor01">
+                    <div class="float-left">
                         <h6>
                             <a href="\logout" class="text-decoration-none text-white">SAIR</a>
                         </h6>
                     </div>
                 </div>
             <?php } else{?>
-                    <span class="navbar-text"> <a class="login" href="/login" style="padding-right: 20px">Log In</a></span>
-                    <a class="btn btn-light action-button" role="button" href="/cadastro-cliente-form">Cadastra-se</a>
+                    <span class="navbar-text col-9">
+                        <a class="login" href="/login" style="padding-right: 20px">Log In</a></span>
+                        <a class="btn btn-light action-button" role="button" href="/cadastro-cliente-form">Cadastra-se</a>
                     <?php }?>
 
 
