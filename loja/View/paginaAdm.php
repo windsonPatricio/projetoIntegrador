@@ -37,7 +37,7 @@
                         <div class="card-header">Header</div>
                         <div class="card-body">
                             <h4 class="card-title">Primary card title</h4>
-                            <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                            <a href="/listar-produtos"><i class="fa fa-list fa-1x"></i></a>
                         </div>
                     </div>
                 </div>

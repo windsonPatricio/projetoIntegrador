@@ -47,44 +47,20 @@
                 <h2 class="text-center">Pacotes Disponiveis</h2>
                 <p class="text-center">Viaje com qualidade e com segurança com os melhores pacotes de viagem do Brasil </p>
             </div>
-            <div class="row projects">
+
+    <div class="row projects">
+        <?php foreach($estadias as $estadia){?>
                 <div class="col-sm-6 item">
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/desk.jpg"></a></div>
                         <div class="col">
                             <h3 class="name">Salvador</h3>
-                            <p class="description">Duas noites, saida de Natal</br> valor <b>R$ 550,00 em 2x</b></p>
+                            <p class="description">hospedagem em <?=$estadia->nome?></br> valor <b><?=$estadia->valorDiaria?></b></p>
                             <button type="submit" class="btn btn-dark" href="/login/">Ver detalhes</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/building.jpg"></a></div>
-                        <div class="col">
-                            <h3 class="name">Project Name</h3>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/loft.jpg"></a></div>
-                        <div class="col">
-                            <h3 class="name">Project Name</h3>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/minibus.jpeg"></a></div>
-                        <div class="col">
-                            <h3 class="name">Project Name</h3>
-                            <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida.</p>
-                        </div>
-                    </div>
-                </div>
+        <?php } ?>
             </div>
         </div>
     </div>

@@ -33,7 +33,7 @@
                 <td></td>
 
                 <td>
-                    <a href="\apagar-produto?id=<?=$cliente->id?>" class="fas fa-eraser text-dark text-decoration-none mr-2"></a>
+                    <a href="\apagar-produto?id=<?=$cliente->id?>" class="fas fa-question-circle text-dark text-decoration-none mr-2"></a>
                     <a href="\editar-produto-form?id=<?=$cliente->id?>" class="fas fa-edit text-dark text-decoration-none mr-2"></a>
                 </td>
             </tr>
