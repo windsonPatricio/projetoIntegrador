@@ -20,3 +20,5 @@
 /cadastro-Estadia-form: CadastroEstadiaFormController
 /cadastro-Transporte: CadastroTransporteController
 /cadastro-Transporte-form: CadastroTransporteFormController
+/cadastro-Evento: CadastroEventoController
+/cadastro-Evento-form: CadastroEventoFormController

@@ -60,7 +60,7 @@
                             <div class="card-header">Header</div>
                             <div class="card-body">
                                 <h4 class="card-title">Primary card title</h4>
-                                <a href="#"><i class="fa fa-bicycle fa-1x"></i></a>
+                                <a href="/cadastro-Estadia-form"><i class="fa fa-file-picture-o fa-1x"></i></a>
                             </div>
                         </div>
                     </div>

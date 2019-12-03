@@ -12,7 +12,7 @@ class CadastroController implements IController
         echo Render::html(
             [
                 "cabecalho.php",
-                "form-cadastro.php",
+                "cadastroEventoForm.php",
                 "rodape.php"
             ],[
 
