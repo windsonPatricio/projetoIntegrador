@@ -20,7 +20,7 @@ require "../vendor/autoload.php";
 $coisa = new TipoUsuario();
 
 
-$coisa->id = 1;
+$coisa->id = "1";
 $coisa->tipo = "Administrador";
 
 Transaction::open();

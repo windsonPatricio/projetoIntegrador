@@ -3,12 +3,15 @@
 
 namespace Ifnc\Tads\Controller;
 
-
 use Ifnc\Tads\Entity\Usuario;
+use Ifnc\Tads\Helper\Flash;
+use Ifnc\Tads\Helper\Message;
 use Ifnc\Tads\Helper\Transaction;
 
 class LoginController implements IController
 {
+
+    use Flash;
 
     public function request(): void
     {
@@ -18,6 +21,7 @@ class LoginController implements IController
         );
 
         if (is_null($email) || $email === false) {
+            $this->create( new Message("Email ou Senha Incorretos!","alert-danger"));
             header('Location: /login-form');
             exit();
         }
@@ -29,6 +33,7 @@ class LoginController implements IController
         Transaction::open();
         $usuario = Usuario::findByCondition("email='{$_POST['email']}'");
         if (is_null($usuario) || !$usuario->valide($senha)) {
+            $this->create( new Message("Email ou Senha Incorretos!","alert-danger"));
             header('Location: /login-form');
             exit();
         }
