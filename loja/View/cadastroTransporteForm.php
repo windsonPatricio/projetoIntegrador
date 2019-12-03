@@ -66,7 +66,7 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="dinheiro">Valor do Frete</label>
-                <input type="text" name="dinheiro" id="dinheiro" class="form-control" id="dinheiro">
+                <input type="text" name="dinheiro" id="dinheiro" class="form-control">
             </div>
             <div class="form-group col-md-6">
                 <label for="inputCity">Telefone</label>
@@ -80,8 +80,5 @@
         <br>
 
     </form>
-    <script src="https://igorescobar.github.io/jQuery-Mask-Plugin/js/jquery.mask.min.js"></script>
-    <script> $('.dinheiro').mask('#.##0,00', {reverse: true});</script>
 </div>
-
 </body>

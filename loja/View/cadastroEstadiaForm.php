@@ -65,30 +65,20 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputCity">Valor da Diaria</label>
-                <input type="text" name="valorDiaria" class="form-control" id="inputCity" OnKeyPress="formatar('R$ #.###,##', this)">
+                <input type="text" name="valorDiaria" class="form-control" id="inputCity" maxlength="6" OnKeyPress="formatar('###,##', this)">
             </div>
             <div class="form-group col-md-6">
                 <label for="inputCity">Telefone</label>
-                <input type="" name="telefone" class="form-control" id="inputCity"  OnKeyPress="formatar('(##) #####-####', this)">
+                <input type="tel" name="telefone" class="form-control" id="inputCity"  maxlength="13" minlength="13" OnKeyPress="formatar('## #####-####', this)">
             </div>
         </div>
 
         <br>
         <button type="submit"  class="btn btn-primary" >Cadastrar</button>
         <a class="btn btn-primary" href="/portalAdm">Cancelar</a>
+        <a class="btn btn-primary" href="/listar-estadia">Listar Estadias</a>
         <br>
 
     </form>
 </div>
-<script>
-    function formatar(mascara, documento){
-        var i = documento.value.length;
-        var saida = mascara.substring(0,1);
-        var texto = mascara.substring(i)
-
-        if (texto.substring(0,1) != saida){
-            documento.value += texto.substring(0,1);
-        }
-    }
-</script>
 </body>

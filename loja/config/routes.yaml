@@ -20,3 +20,4 @@
 /cadastro-Estadia-form: CadastroEstadiaFormController
 /cadastro-Transporte: CadastroTransporteController
 /cadastro-Transporte-form: CadastroTransporteFormController
+/listar-estadia: ListarEstadiaController
