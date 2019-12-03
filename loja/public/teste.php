@@ -20,8 +20,13 @@ require "../vendor/autoload.php";
 $coisa = new TipoUsuario();
 
 
+<<<<<<< HEAD
+$coisa->id = "1";
+$coisa->tipo = "Administrador";
+=======
 $coisa-> tipo= 1;
 $coisa-> descricao = "administrador";
+>>>>>>> origin/master
 
 Transaction::open();
 $coisa->store();
