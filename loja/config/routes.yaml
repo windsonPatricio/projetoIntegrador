@@ -35,3 +35,5 @@
 /cadastro-Transporte-form: CadastroTransporteFormController
 /cadastro-Evento: CadastroEventoController
 /cadastro-Evento-form: CadastroEventoFormController
+/cadastro-Local: CadastroLocalController
+/cadastro-local-form: CadastroLocalFormController

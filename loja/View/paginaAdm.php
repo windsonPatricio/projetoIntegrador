@@ -51,6 +51,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="card">
+                    <div class="card text-white bg-primary">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Cadastrar Local de Visita</h4>
+                            <a href="/cadastro-local-form"><i class="fa fa-road fa-1x"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
             <div class="container row-2">

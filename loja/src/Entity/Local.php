@@ -10,7 +10,10 @@ class Local extends Record
 {
     public $id;
     public $nome;
-    public $endereco
+    public $endereco;
     public $valorIngresso;
+    public $cidade;
+    Public $estado;
+
 
 }
