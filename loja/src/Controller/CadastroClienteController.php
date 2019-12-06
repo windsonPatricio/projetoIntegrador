@@ -25,12 +25,13 @@ class CadastroClienteController implements IController
         $cliente->senha = password_hash($_POST['senha'], PASSWORD_ARGON2I);
         $cliente->email = $_POST['email'];
         $cliente->dataCadastro = date('Y-m-d');
+        $cliente->tipoUsuario= 3;
 
         Transaction::open();
         $cliente->store();
         Transaction::close();
 
-        header('Location: /listar-produtos', true, 302);
+        header('Location: /login-form', true, 302);
         exit();
     }
 
