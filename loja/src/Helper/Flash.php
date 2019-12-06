@@ -1,6 +1,7 @@
 <?php
 namespace Ifnc\Tads\Helper;
 use Ifnc\Tads\Helper\Message;
+
 trait Flash
 {
     function create(Message $message)

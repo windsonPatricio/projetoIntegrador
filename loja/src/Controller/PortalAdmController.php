@@ -21,7 +21,7 @@ class PortalAdmController implements IController
                 "rodape.php"
             ],
             [
-
+                "usuario" => $_SESSION['usuario']
             ]
         );
     }

@@ -5,12 +5,15 @@ namespace Ifnc\Tads\Controller;
 
 
 use Ifnc\Tads\Helper\Render;
+use Ifnc\Tads\Helper\Flash;
 
 class LoginFormController implements IController
 {
+    use Flash;
 
     public function request(): void
     {
+
         echo Render::html(
             [
                 "cabecalho.php",
@@ -18,7 +21,9 @@ class LoginFormController implements IController
                 "rodape.php",
             ],
             [
-                "titulo"=>"Login"
+                "titulo"=>"Login",
+                "alerts"=>$this->useAll()
+
             ]);
     }
 }

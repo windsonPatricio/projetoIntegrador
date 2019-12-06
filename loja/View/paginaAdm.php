@@ -21,8 +21,9 @@
 <body>
 <br><br>
 <div class="align-content-center">
-        <nav class="menu-navigation-dark">
-        <div class="container row-2">
+    <nav class="menu-navigation-dark">
+       <?php if ($usuario->tipoUsuario==1){?>
+         <div class="container row-2">
             <div class="card-columns">
                 <div class="card">
                     <div class="card text-white bg-primary">
@@ -53,6 +54,7 @@
                 </div>
             </div>
         </div>
+        <?php } else{?>
             <div class="container row-2">
                 <div class="card-columns">
                     <div class="card">
@@ -84,6 +86,7 @@
                     </div>
                 </div>
             </div>
+            <?php }?>
         </nav>
 
 </div>

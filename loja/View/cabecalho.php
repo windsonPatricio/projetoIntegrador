@@ -37,7 +37,15 @@
 
                 </div>
             </nav>
-
+        <main class="container">
+            <?php if(isset($alerts)){?>
+                <?php foreach($alerts as $alert){?>
+                    <div class="alert alert-<?=$alert->context?> mt-2" role="alert">
+                        <?=$alert->content?>
+                    </div>
+                <?php }?>
+            <?php }?>
+        </main>
         <main class="container">
 
     </header>
