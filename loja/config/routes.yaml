@@ -11,6 +11,7 @@
 /listar-estadia: ListarEstadiaController
 /listar-transporte: ListarTransporteController
 /listar-eventos: ListarEventosController
+/listar-local: ListarLocalController
 
 /adicionar-produto-form:  AdicionarProdutoFormController
 /adicionar-produto: AdicionarProdutoController
@@ -19,6 +20,7 @@
 /apagar-estadia: ApagarEstadiaController
 /apagar-transporte: ApagarTransporteController
 /apagar-evento: ApagarEventoController
+/apagar-local: ApagarLocalController
 
 /editar-produto-form: EditarProdutoFormController
 /editar-produto:  EditarProdutoController
