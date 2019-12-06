@@ -37,6 +37,7 @@ class LoginController implements IController
             header('Location: /login-form');
             exit();
         }
+
         $_SESSION["usuario"]=$usuario;
         if ($usuario->tipoUsuario== 1) {
             header('Location: /portalAdm');

@@ -23,7 +23,6 @@ class LoginFormController implements IController
             [
                 "titulo"=>"Login",
                 "alerts"=>$this->useAll()
-
             ]);
     }
 }

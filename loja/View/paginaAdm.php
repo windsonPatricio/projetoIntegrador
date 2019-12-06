@@ -20,6 +20,7 @@
 
 <body>
 <br><br>
+
 <div class="align-content-center">
     <nav class="menu-navigation-dark">
        <?php if ($usuario->tipoUsuario==1){?>
