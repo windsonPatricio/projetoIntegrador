@@ -83,20 +83,9 @@
 
         <br>
         <button type="submit"  class="btn btn-primary" >Cadastrar</button>
-        <a class="btn btn-primary" href="/portalAdm">Cancelar</a>
-        <br>
+        <a class="btn btn-primary" href="/portalAdm">Voltar</a>
+        <a class="btn btn-primary" href="/listar-produtos">Listar Usuarios Cadastrados</a>
 
     </form>
 </div>
-<script>
-    function formatar(mascara, documento){
-        var i = documento.value.length;
-        var saida = mascara.substring(0,1);
-        var texto = mascara.substring(i)
-
-        if (texto.substring(0,1) != saida){
-            documento.value += texto.substring(0,1);
-        }
-    }
-</script>
 </body>

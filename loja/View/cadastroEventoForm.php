@@ -23,21 +23,22 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputCity">Valor do Ingresso</label>
-                <input type="text" name="valor" class="form-control" id="inputCity" placeholder="Valor" OnKeyPress="formatar('R$ #.###,##', this)">
+                <input type="text" name="valor" class="form-control" id="inputCity" placeholder="Valor"">
             </div>
             <div class="form-group col-md-6">
                 <label for="inputCity">Data</label>
-                <input type="" name="data" class="form-control" id="inputCity" placeholder="Data do Evento"  OnKeyPress="formatar(' ##.##.####', this)">
+                <input type="" name="data" class="form-control" id="inputCity" placeholder="Data do Evento" maxlength="10" OnKeyPress="formatar('##/##/####', this)">
             </div>
             <div class="form-group col-md-6">
                 <label for="inputCity">Hora</label>
-                <input type="" name="hora" class="form-control" id="inputCity" placeholder="Hora do Evento" OnKeyPress="formatar(' ##:##h', this)">
+                <input type="" name="hora" class="form-control" id="inputCity" placeholder="Hora do Evento" maxlength="5" OnKeyPress="formatar('##:##', this)">
             </div>
         </div>
 
         <br>
         <button type="submit"  class="btn btn-primary" >Cadastrar</button>
-        <a class="btn btn-primary" href="/portalAdm">Cancelar</a>
+        <a class="btn btn-primary" href="/portalAdm">Voltar</a>
+        <a class="btn btn-primary" href="/listar-eventos">Listar Eventos Cadastrados</a>
         <br>
 
     </form>

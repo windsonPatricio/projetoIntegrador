@@ -75,8 +75,8 @@
 
         <br>
         <button type="submit"  class="btn btn-primary" >Cadastrar</button>
-        <a class="btn btn-primary" href="/portalAdm">Cancelar</a>
-        <a class="btn btn-primary" href="/listar-Estadia">Listar Estadias</a>
+        <a class="btn btn-primary" href="/portalAdm">Voltar</a>
+        <a class="btn btn-primary" href="/listar-estadia">Listar Estadias Cadastradas</a>
         <br>
 
     </form>

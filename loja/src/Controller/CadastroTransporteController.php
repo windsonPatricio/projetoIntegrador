@@ -28,7 +28,7 @@ class CadastroTransporteController implements IController
         Transaction::open();
         $transporte->store();
         Transaction::close();
-        header('Location: /portalAdm', true, 302);
+        header('Location: /cadastro-Transporte-form', true, 302);
         exit();
     }
 

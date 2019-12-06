@@ -32,7 +32,7 @@
                 <td></td>
 
                 <td>
-                    <a href="\apagar-produto?id=<?=$estadias->id?>" class="fas fa-question-circle text-dark text-decoration-none mr-2"></a>
+                    <a href="\apagar-estadia?id=<?=$estadias->id?>" class="fas fa-question-circle text-dark text-decoration-none mr-2"></a>
                     <a href="\editar-produto-form?id=<?=$estadias->id?>" class="fas fa-edit text-dark text-decoration-none mr-2"></a>
                 </td>
             </tr>

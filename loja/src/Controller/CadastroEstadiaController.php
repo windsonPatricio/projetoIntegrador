@@ -27,7 +27,7 @@ class CadastroEstadiaController implements IController
         Transaction::open();
         $estadia->store();
         Transaction::close();
-        header('Location: /portalAdm', true, 302);
+        header('Location: /cadastro-Estadia-form', true, 302);
         exit();
     }
 

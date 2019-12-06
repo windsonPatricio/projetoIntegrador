@@ -30,7 +30,7 @@ class CadastroAgenteController implements IController
         Transaction::open();
         $agente->store();
         Transaction::close();
-        header('Location: /portalAdm', true, 302);
+        header('Location: /cadastro-agente-form', true, 302);
         exit();
     }
 

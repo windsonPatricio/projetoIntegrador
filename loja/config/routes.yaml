@@ -2,24 +2,36 @@
 /portal:  PortalController
 /portalAdm: PortalAdmController
 /cadastro: CadastroController
+
 /login-form:  LoginFormController
 /login: LoginController
 /logout:  LogoutController
+
 /listar-produtos: ListarProdutosController
-/listar-Estadia: ListarEstadiaController
+/listar-estadia: ListarEstadiaController
+/listar-transporte: ListarTransporteController
+/listar-eventos: ListarEventosController
+
 /adicionar-produto-form:  AdicionarProdutoFormController
 /adicionar-produto: AdicionarProdutoController
+
 /apagar-produto:  ApagarProdutoController
+/apagar-estadia: ApagarEstadiaController
+/apagar-transporte: ApagarTransporteController
+/apagar-evento: ApagarEventoController
+
 /editar-produto-form: EditarProdutoFormController
 /editar-produto:  EditarProdutoController
+
 /404found:  path404Controller
+
 /cadastro-cliente: CadastroClienteController
 /cadastro-cliente-form: CadastroClienteFormController
 /cadastro-agente: CadastroAgenteController
 /cadastro-agente-form: CadastroAgenteFormController
 /cadastro-Estadia: CadastroEstadiaController
 /cadastro-Estadia-form: CadastroEstadiaFormController
-/cadastro-Transporte: CadastroTransporteController
+/cadastro-transporte: CadastroTransporteController
 /cadastro-Transporte-form: CadastroTransporteFormController
 /cadastro-Evento: CadastroEventoController
 /cadastro-Evento-form: CadastroEventoFormController

@@ -1,7 +1,7 @@
 <body>
 <br><br>
 <div class="container">
-    <form action="/cadastro-Transporte" method="post">
+    <form action="/cadastro-transporte" method="post">
      <div class="form-row">
         <div class="form-group col-md-8">
             <label for="inputAddress2">Nome</label>
@@ -15,6 +15,7 @@
                 <option>Van</option>
                 <option>Micro Onibus</option>
                 <option>Onibus</option>
+                <option>Aviao</option>
                 <option>Outros</option>
             </select>
         </div>
@@ -76,7 +77,8 @@
 
         <br>
         <button type="submit"  class="btn btn-primary" >Cadastrar</button>
-        <a class="btn btn-primary" href="/portalAdm">Cancelar</a>
+        <a class="btn btn-primary" href="/portalAdm">Voltar</a>
+        <a class="btn btn-primary" href="/listar-transporte">Listar Transportes Cadastrados</a>
         <br>
 
     </form>

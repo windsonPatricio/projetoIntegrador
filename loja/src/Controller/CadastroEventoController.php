@@ -25,7 +25,7 @@ class CadastroEventoController implements IController
         Transaction::open();
         $evento->store();
         Transaction::close();
-        header('Location: /portalAdm', true, 302);
+        header('Location: /cadastro-Evento-form', true, 302);
         exit();
     }
 
