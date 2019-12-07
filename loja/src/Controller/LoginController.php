@@ -21,7 +21,6 @@ class LoginController implements IController
         );
 
         if (is_null($email) || $email === false) {
-            $this->create( new Message("Email ou Senha Incorretos!","alert-danger"));
             header('Location: /login-form');
             exit();
         }
