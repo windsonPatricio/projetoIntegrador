@@ -1,8 +1,8 @@
 <body>
 <div class="container mt-3 bg-white rounded shadow-sm flex-row">
-    <span class="d-block text-center mb-3">
-        <a href="/cadastro-estadia" class="fas fa-plus text-dark text-decoration-none"></a>
-    </span>
+    <br>
+        <h2> LISTA DE ESTADIAS </h2>
+    <br>
     <table class="table">
         <thead>
         <tr>

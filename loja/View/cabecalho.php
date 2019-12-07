@@ -26,12 +26,9 @@
                         </h6>
                     </div>
                 </div>
-             <?php } elseif ($usuarios->tipoUsuario==1 || $usuarios->tipoUsuario==2){?>
-                    <span class="navbar-text col-9">
-                        <a class="btn btn-light action-button" role="button" href="/paginaAdm">Pagina Administrativa</a>
-            <?php } else{?>
                 <span class="navbar-text col-9">
-                        <a class="login" href="/login" style="padding-right: 20px">Log In</a></span>
+                        <a class="login" href="/login" style="padding-right: 20px">Log In</a>
+                </span>
                 <a class="btn btn-light action-button" role="button" href="/cadastro-cliente-form">Cadastra-se</a>
             <?php }?>
                 </div>

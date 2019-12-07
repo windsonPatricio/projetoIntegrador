@@ -30,7 +30,7 @@
                     <div class="card text-white bg-primary">
                         <div class="card-header">Header</div>
                         <div class="card-body">
-                            <h4 class="card-title">Cadastra Pacote</h4>
+                            <h4 class="card-title">Listar Pacote</h4>
                             <a href="#"><i class="fa fa-archive fa-1x"></i></a>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                     <div class="card text-white bg-primary">
                         <div class="card-header">Header</div>
                         <div class="card-body">
-                            <h4 class="card-title">Lista de Usuarios</h4>
+                            <h4 class="card-title">Listar Usuarios</h4>
                             <a href="/listar-produtos"><i class="fa fa-list fa-1x"></i></a>
                         </div>
                     </div>
@@ -48,20 +48,12 @@
                     <div class="card text-white bg-primary">
                         <div class="card-header">Header</div>
                         <div class="card-body">
-                            <h4 class="card-title">Cadastra Agente de Viagem</h4>
+                            <h4 class="card-title">Incluir Agente de Viagem</h4>
                             <a href="/cadastro-agente-form"><i class="fa fa-user fa-1x"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <div class="card text-white bg-primary">
-                        <div class="card-header">Header</div>
-                        <div class="card-body">
-                            <h4 class="card-title">Cadastrar Local de Visita</h4>
-                            <a href="/cadastro-local-form"><i class="fa fa-road fa-1x"></i></a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
         <?php } else{?>
@@ -71,8 +63,8 @@
                         <div class="card text-white bg-primary">
                             <div class="card-header">Header</div>
                             <div class="card-body">
-                                <h4 class="card-title">Cadastrar eventos</h4>
-                                <a href="/cadastro-Evento-form"><i class="fa fa-file-picture-o fa-1x"></i></a>
+                                <h4 class="card-title">Incluir Pacote</h4>
+                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
                             </div>
                         </div>
                     </div>
@@ -80,7 +72,7 @@
                         <div class="card text-white bg-primary">
                             <div class="card-header">Header</div>
                             <div class="card-body">
-                                <h4 class="card-title">Adicionar Hotel</h4>
+                                <h4 class="card-title">Cadastrar Hotel</h4>
                                 <a href="/cadastro-Estadia-form"><i class="fa fa-hotel fa-1x"></i></a>
                             </div>
                         </div>
@@ -89,13 +81,39 @@
                         <div class="card text-white bg-primary">
                             <div class="card-header">Header</div>
                             <div class="card-body">
-                                <h4 class="card-title">Adicionar Transporte</h4>
+                                <h4 class="card-title">Cadastrar Transporte</h4>
                                 <a href="/cadastro-Transporte-form"><i class="fa fa-car fa-1x"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+           <div class="container row-2">
+               <div class="card-columns">
+                   <div class="card">
+                       <div class="card text-white bg-primary">
+                           <div class="card-header">Header</div>
+                           <div class="card-body">
+                               <h4 class="card-title">Cadastrar eventos</h4>
+                               <a href="/cadastro-Evento-form"><i class="fa fa-file-picture-o fa-1x"></i></a>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+                       <div class="card text-white bg-primary">
+                           <div class="card-header">Header</div>
+                           <div class="card-body">
+                               <h4 class="card-title">Cadastrar Local de Visita</h4>
+                               <a href="/cadastro-local-form"><i class="fa fa-road fa-1x"></i></a>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="card">
+
+                   </div>
+               </div>
+           </div>
             <?php }?>
         </nav>
 

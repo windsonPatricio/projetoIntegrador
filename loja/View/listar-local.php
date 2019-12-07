@@ -1,15 +1,15 @@
 <body>
 <div class="container mt-3 bg-white rounded shadow-sm flex-row">
-    <span class="d-block text-center mb-3">
-        <a href="/cadastro-estadia" class="fas fa-plus text-dark text-decoration-none"></a>
-    </span>
+    <br>
+        <h2> lISTA DE LOCAIS </h2>
+    <br>
     <table class="table">
         <thead>
         <tr>
             <th scope="col">#</th>
             <th scope="col">nome</th>
             <th scope="col">endereco</th>
-            <th scope="col">valor da diaria</th>
+            <th scope="col">valor da ingresso</th>
             <th scope="col">cidade</th>
             <th scope="col">estado</th>
             <th scope="col">dataCadastro</th>

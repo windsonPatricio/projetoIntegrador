@@ -21,7 +21,6 @@ class PortalController implements IController
             ],[
 
             "estadias" => Estadia::all(),
-            "usuarios" => $_SESSION['usuario'],
             "titulo"=>"AvengerTUR",
 
         ]);

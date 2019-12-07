@@ -1,6 +1,9 @@
 <body>
 <br><br>
 <div class="container">
+    <br>
+        <h3> CADASTRO DE ESTADIA </h3>
+    <br>
     <form action="/cadastro-Estadia" method="post">
      <div class="form-row">
         <div class="form-group col-md-8">

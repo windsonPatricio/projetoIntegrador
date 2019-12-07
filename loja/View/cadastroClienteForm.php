@@ -1,6 +1,9 @@
 <body>
 <br><br>
 <div class="container">
+    <br>
+        <h3> FORMULARIO DE CADASTRO </h3>
+    <br>
     <form action="/cadastro-cliente" method="post">
         <div class="form-group">
             <label for="inputAddress2">Nome</label>

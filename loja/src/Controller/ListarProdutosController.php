@@ -15,7 +15,7 @@ class ListarProdutosController implements IController
         echo Render::html(
             [
                 "cabecalho.php",
-                "listar-produtos.php",
+                "listar-usuarios.php",
                 "rodape.php"
             ],
             [

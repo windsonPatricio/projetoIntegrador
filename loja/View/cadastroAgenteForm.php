@@ -1,7 +1,10 @@
 <body>
-<br><br>
 <div class="container">
+    <br>
+        <h3> INCLUIR USUARIO AGENTE DE VIAGEM </h3>
+    <br>
     <form action="/cadastro-agente" method="post">
+
         <div class="form-group">
             <label for="inputAddress2">Nome</label>
             <input type="text" class="form-control" name="nome" id="inputAddress2" placeholder="Seu nome">
@@ -84,8 +87,6 @@
         <br>
         <button type="submit"  class="btn btn-primary" >Cadastrar</button>
         <a class="btn btn-primary" href="/portalAdm">Voltar</a>
-        <a class="btn btn-primary" href="/listar-produtos">Listar Usuarios Cadastrados</a>
-
     </form>
 </div>
 </body>
