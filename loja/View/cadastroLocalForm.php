@@ -5,7 +5,7 @@
      <div class="form-row">
         <div class="form-group col-md-8">
             <label for="inputAddress2">Nome</label>
-            <input type="text" class="form-control" name="nome" id="inputAddress2" placeholder="Nome Hotel">
+            <input type="text" class="form-control" name="nome" id="inputAddress2" placeholder="Nome do local">
         </div>
      </div>
         <div class="form-group">
@@ -62,7 +62,7 @@
         <br>
         <button type="submit"  class="btn btn-primary" >Cadastrar</button>
         <a class="btn btn-primary" href="/portalAdm">Voltar</a>
-        <a class="btn btn-primary" href="/listar-estadia">Listar Estadias Cadastradas</a>
+        <a class="btn btn-primary" href="/listar-local">Listar locais cadastrados</a>
         <br>
 
     </form>
