@@ -11,39 +11,40 @@
 
 </head>
 <body class="bg-light">
-    <header>
+<header>
 
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <a class="navbar-brand" href="/portal">Avenger TUR</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <?php if(isset($_SESSION['usuario'])){?>
-                <div class="collapse navbar-collapse " id="navbarColor01">
-                    <div class="float-left">
-                        <h6>
-                            <a href="\logout" class="text-decoration-none text-white">SAIR</a>
-                        </h6>
-                    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="/portal">Avenger TUR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <?php if(isset($_SESSION['usuario'])){?>
+            <div class="collapse navbar-collapse " id="navbarColor01">
+                <div class="float-left">
+                    <h6>
+                        <a href="\logout" class="text-decoration-none text-white">SAIR</a>
+                    </h6>
                 </div>
-                <span class="navbar-text col-9">
+            </div>
+
+        <?php } else{?>
+        </div>
+        <span class="navbar-text col-9">
                         <a class="login" href="/login" style="padding-right: 20px">Log In</a>
                 </span>
-                <a class="btn btn-light action-button" role="button" href="/cadastro-cliente-form">Cadastra-se</a>
-            <?php }?>
+        <a class="btn btn-light action-button" role="button" href="/cadastro-cliente-form">Cadastra-se</a>
+        </div>
+        <?php }?>
+    </nav>
+    <main class="container">
+        <?php if(isset($alerts)){?>
+            <?php foreach($alerts as $alert){?>
+                <div class="alert alert-<?=$alert->context?> mt-2" role="alert">
+                    <?=$alert->content?>
                 </div>
-
-                </div>
-            </nav>
-        <main class="container">
-            <?php if(isset($alerts)){?>
-                <?php foreach($alerts as $alert){?>
-                    <div class="alert alert-<?=$alert->context?> mt-2" role="alert">
-                        <?=$alert->content?>
-                    </div>
-                <?php }?>
             <?php }?>
-        </main>
-        <main class="container">
+        <?php }?>
+    </main>
+    <main class="container">
 
-    </header>
+</header>

@@ -23,6 +23,7 @@
 
 <div class="align-content-center">
     <nav class="menu-navigation-dark">
+        <?php var_dump($usuario->tipoUsuario)?>
        <?php if ($usuario->tipoUsuario==1){?>
          <div class="container row-2">
             <div class="card-columns">

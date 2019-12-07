@@ -21,7 +21,7 @@ class PortalController implements IController
             ],[
 
             "estadias" => Estadia::all(),
-            "titulo"=>"AvengerTUR",
+            "titulo"=>"AvengerTUR"
 
         ]);
     }
