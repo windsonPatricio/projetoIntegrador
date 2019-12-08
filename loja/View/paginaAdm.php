@@ -65,7 +65,7 @@
                             <div class="card-header">Header</div>
                             <div class="card-body">
                                 <h4 class="card-title">Incluir Pacote</h4>
-                                <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                                <a href="/cadastro-pacote-form"><i class="fa fa-archive fa-1x"></i></a>
                             </div>
                         </div>
                     </div>
