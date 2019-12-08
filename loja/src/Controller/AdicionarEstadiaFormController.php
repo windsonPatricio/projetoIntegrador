@@ -2,9 +2,10 @@
 
 namespace Ifnc\Tads\Controller;
 
+use Ifnc\Tads\Entity\Estadia;
 use Ifnc\Tads\Helper\Render;
 
-class AdicionarProdutoFormController implements IController
+class AdicionarEstadiaFormController implements IController
 {
 
     public function request(): void
@@ -12,10 +13,11 @@ class AdicionarProdutoFormController implements IController
         echo Render::html(
             [
                 "cabecalho.php",
-                "CadastroClienteController.php",
+                "adicionar-estadia-form.php",
                 "rodape.php"],
             [
-                "titulo"=>"Adicionar Roteiro"
+                "titulo"=>"Adicionar Estadia ao Pacote",
+                "estadias"=> Estadia::all()
             ]);
     }
 }

@@ -6,6 +6,7 @@ namespace Ifnc\Tads\Controller;
 use Ifnc\Tads\Entity\Estadia;
 use Ifnc\Tads\Entity\Eventos;
 use Ifnc\Tads\Entity\Pacote;
+use Ifnc\Tads\Entity\Pacote_Estadia;
 use Ifnc\Tads\Entity\Roteiro;
 use Ifnc\Tads\Entity\Usuario;
 use Ifnc\Tads\Helper\Record;
@@ -22,11 +23,11 @@ class CadastroPacoteController implements IController
         $pacote->status = 'em analise';
         $pacote->dataCadastro =  date('d-m-Y');
 
-
         Transaction::open();
         $pacote->store();
         Transaction::close();
-        header('Location: /cadastro-pacote-form', true, 302);
+
+        header('Location: /listar-pacote', true, 302);
         exit();
     }
 

@@ -16,7 +16,7 @@ class CadastroEstadiaFormController implements IController
                 "cadastroEstadiaForm.php",
                 "rodape.php"],
             [
-                // "titulo"=>"Cadastro de Cliente"
+                "titulo"=>"Cadastro de Estadia"
             ]);
     }
 }

@@ -12,9 +12,10 @@
 /listar-transporte: ListarTransporteController
 /listar-eventos: ListarEventosController
 /listar-local: ListarLocalController
+/listar-pacote: ListarPacoteController
 
-/adicionar-produto-form:  AdicionarProdutoFormController
-/adicionar-produto: AdicionarProdutoController
+/adicionar-estadia-form: AdicionarEstadiaFormController
+/adicionar-estadia: AdicionarEstadiaController
 
 /apagar-produto:  ApagarProdutoController
 /apagar-estadia: ApagarEstadiaController

@@ -3,9 +3,6 @@
 
 namespace Ifnc\Tads\Controller;
 
-
-use Ifnc\Tads\Entity\Eventos;
-use Ifnc\Tads\Entity\Local;
 use Ifnc\Tads\Helper\Render;
 use Ifnc\Tads\Helper\Transaction;
 
@@ -20,8 +17,7 @@ class CadastroPacoteFormController implements IController
                 "cadastroPacoteForm.php",
                 "rodape.php"],
             [
-                "locais" => Local::all(),
-                "eventos" => Eventos::all(),
+                "titulo"=>"Cadastro de pacote"
             ]);
     }
 }
