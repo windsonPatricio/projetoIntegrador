@@ -16,5 +16,7 @@
                     <?php } ?>
                 </select>
             </div>
+
+            <button type="submit"  href="/adicionar-estadia"class="btn btn-primary" >Cadastrar</button>
     </form>
 </div>
