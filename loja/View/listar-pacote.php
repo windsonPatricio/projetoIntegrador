@@ -1,7 +1,7 @@
 <body>
 <div class="container mt-3 bg-white rounded shadow-sm flex-row">
     <br>
-        <h2> LISTA DE ESTADIAS </h2>
+        <h2> LISTA DE PACOTES </h2>
     <br>
     <table class="table">
         <thead>

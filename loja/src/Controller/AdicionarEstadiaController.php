@@ -14,14 +14,14 @@ class AdicionarEstadiaController implements IController
         $pacote_estadia = new Pacote_Estadia();
         $pacote_estadia->dataReserva = $_POST['dataReserva'];
         $pacote_estadia->estadia_id = $_POST['estadia_id'];
-        $pacote_estadia->pacote_id = $_GET["id"];
-            echo $_GET['id'];
+        $pacote_estadia->pacote_id = $_POST['id'];
+
 
 
         Transaction::open();
         $pacote_estadia->store();
         Transaction::close();
-        header('Location: /listar-produtos', true, 302);
+        header('Location: /listar-pacote', true, 302);
         exit();
     }
 

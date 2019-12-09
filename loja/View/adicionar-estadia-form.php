@@ -1,6 +1,10 @@
 <div class="my-3 p-3 bg-white rounded shadow-sm">
     <form action="/adicionar-estadia" method="post">
         <div class="form-row">
+            <div class="form-group col-md-1">
+                <label for="inputCity">Id do pacote</label>
+                <input class="form-control" name="id" value="<?=$_GET['id']?>" type="text" readonly>
+            </div>
             <div class="form-group col-md-4">
                 <label for="inputCity">Data reserva</label>
                 <input type="text" name="dataReserva" class="form-control" id="inputCity" placeholder="digite..." maxlength="10" OnKeyPress="formatar('##/##/####', this)">
