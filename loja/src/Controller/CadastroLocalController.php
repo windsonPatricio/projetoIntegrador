@@ -21,7 +21,7 @@ class CadastroLocalController implements IController
         $local->cidade = $_POST['cidade'];
         $local->estado = $_POST['estado'];
         $local->valorIngresso = $_POST['valorIngresso'];
-        $local->dataCadastro = date('Y-m-d');
+        $local->dataCadastro = date('d-m-Y');
 
         Transaction::open();
         $local->store();

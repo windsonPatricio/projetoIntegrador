@@ -22,7 +22,7 @@ class CadastroEstadiaController implements IController
         $estadia->estado = $_POST['estado'];
         $estadia->telefone = $_POST['telefone'];
         $estadia->valorDiaria = $_POST['valorDiaria'];
-        $estadia->dataCadastro = date('Y-m-d');
+        $estadia->dataCadastro = date('d-m-Y');
 
         Transaction::open();
         $estadia->store();

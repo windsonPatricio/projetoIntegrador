@@ -5,16 +5,6 @@
         <h3> CADASTRO DE LOCAL DE VISITA </h3>
     <br>
     <form action="/cadastro-Local" method="post">
-     <div class="form-row">
-        <div class="form-group col-md-8">
-            <label for="inputAddress2">Nome</label>
-            <input type="text" class="form-control" name="nome" id="inputAddress2" placeholder="Nome do local">
-        </div>
-     </div>
-        <div class="form-group">
-            <label for="inputAddress2">Endereço</label>
-            <input type="text" class="form-control" name="endereco" id="inputAddress2" placeholder="Rua, Sitio, Fazenda...">
-        </div>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputCity">Cidade</label>

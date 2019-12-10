@@ -24,7 +24,7 @@ class CadastroAgenteController implements IController
         $agente->sexo = $_POST['sexo'];
         $agente->senha = password_hash($_POST['senha'], PASSWORD_ARGON2I);
         $agente->email = $_POST['email'];
-        $agente->dataCadastro = date('Y-m-d');
+        $agente->dataCadastro = date('d-m-Y');
         $agente->tipoUsuario = 2;
 
         Transaction::open();

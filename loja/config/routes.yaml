@@ -16,6 +16,12 @@
 
 /adicionar-estadia-form: AdicionarEstadiaFormController
 /adicionar-estadia: AdicionarEstadiaController
+/adicionar-evento-form: AdicionarEventoFormController
+/adicionar-evento: AdicionarEventoController
+/adicionar-transporte-form: AdicionarTransporteFormController
+/adicionar-transporte: AdicionarTransporteController
+/adicionar-trecho-form: AdicionarTrechoFormController
+/adicionar-trecho: AdicionarTrechoController
 
 /apagar-produto:  ApagarProdutoController
 /apagar-estadia: ApagarEstadiaController
@@ -23,6 +29,8 @@
 /apagar-evento: ApagarEventoController
 /apagar-local: ApagarLocalController
 
+/aprovar-pacote: AprovarPacoteController
+/reprovar-pacote: ReprovarPacoteController
 /editar-produto-form: EditarProdutoFormController
 /editar-produto:  EditarProdutoController
 

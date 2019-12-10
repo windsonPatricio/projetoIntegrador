@@ -24,7 +24,7 @@ class CadastroClienteController implements IController
         $cliente->sexo = $_POST['sexo'];
         $cliente->senha = password_hash($_POST['senha'], PASSWORD_ARGON2I);
         $cliente->email = $_POST['email'];
-        $cliente->dataCadastro = date('Y-m-d');
+        $cliente->dataCadastro = date('d-m-Y');
         $cliente->tipoUsuario= 3;
 
         Transaction::open();

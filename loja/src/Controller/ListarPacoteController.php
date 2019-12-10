@@ -19,7 +19,8 @@ class ListarPacoteController implements IController
             ],
             [
                 "pacote" => Pacote::all(),
-                "titulo"=> "Lista de Estadias"
+                "titulo"=> "Lista de Pacotes Cadastrados",
+                 "usuario" => $_SESSION['usuario']
             ]
         );
     }

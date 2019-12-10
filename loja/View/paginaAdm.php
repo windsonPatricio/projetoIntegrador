@@ -23,7 +23,7 @@
 
 <div class="align-content-center">
     <nav class="menu-navigation-dark">
-        <?php var_dump($usuario->tipoUsuario)?>
+
        <?php if ($usuario->tipoUsuario==1){?>
          <div class="container row-2">
             <div class="card-columns">
@@ -32,7 +32,7 @@
                         <div class="card-header">Header</div>
                         <div class="card-body">
                             <h4 class="card-title">Listar Pacote</h4>
-                            <a href="#"><i class="fa fa-archive fa-1x"></i></a>
+                            <a href="/listar-pacote"><i class="fa fa-archive fa-1x"></i></a>
                         </div>
                     </div>
                 </div>

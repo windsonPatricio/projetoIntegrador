@@ -16,7 +16,7 @@ class CadastroEventoFormController implements IController
                 "cadastroEventoForm.php",
                 "rodape.php"],
             [
-                // "titulo"=>"Cadastro de Cliente"
+                "titulo"=>"Cadastro de Evento"
             ]);
     }
 }

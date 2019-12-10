@@ -23,7 +23,7 @@ class CadastroTransporteController implements IController
         $transporte->estado = $_POST['estado'];
         $transporte->telefone = $_POST['telefone'];
         $transporte->valorFrete = $_POST['valorFrete'];
-        $transporte->dataCadastro = date('Y-m-d');
+        $transporte->dataCadastro = date('d-m-Y');
 
         Transaction::open();
         $transporte->store();
