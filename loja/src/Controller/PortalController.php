@@ -2,8 +2,8 @@
 
 namespace Ifnc\Tads\Controller;
 
-use Ifnc\Tads\Entity\Estadia;
-use Ifnc\Tads\Entity\Usuario;
+
+use Ifnc\Tads\Entity\Pacote;
 use Ifnc\Tads\Helper\Render;
 use Ifnc\Tads\Helper\Transaction;
 
@@ -20,7 +20,7 @@ class PortalController implements IController
                 "rodape.php"
             ],[
 
-            "estadias" => Estadia::all(),
+            "pacotes" => Pacote::all(),
             "titulo"=>"AvengerTUR"
 
         ]);

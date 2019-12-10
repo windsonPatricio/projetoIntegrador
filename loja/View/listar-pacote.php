@@ -43,9 +43,13 @@
         </tbody>
     </table>
     <div>
+        <?php if ($usuario->tipoUsuario==1){?>
         <br>
+            <a class="btn btn-primary" href="/portalAdm">Voltar</a>
+        <br>
+        <?php } else { ?>
             <a class="btn btn-primary" href="/cadastro-pacote-form">Voltar</a>
-        <br>
+        <?php } ?>
     </div>
 </div>
 
