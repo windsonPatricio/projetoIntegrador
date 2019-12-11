@@ -49,8 +49,8 @@
             </div>
 
     <div class="row projects">
-        <?php foreach($pacotes as $pacote){ ?>
-             <?php if($pacote->status == "aprovado"){ ?>}
+        <?php foreach($pacotes as $pacote){
+            if(strcmp($pacote->status, "Reprovado" )){ ?>
                 <div class="col-sm-6 item">
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/desk.jpg"></a></div>
@@ -61,7 +61,9 @@
                         </div>
                     </div>
                 </div>
-            <?php } ?>
+            <?php } else {
+
+              } ?>
         <?php } ?>
             </div>
         </div>

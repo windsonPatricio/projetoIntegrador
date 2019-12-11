@@ -2,21 +2,19 @@
 
 namespace Ifnc\Tads\Controller;
 
-use Ifnc\Tads\Entity\Estadia;
 use Ifnc\Tads\Entity\Pacote;
 use Ifnc\Tads\Entity\Roteiro;
-use Ifnc\Tads\Entity\Usuario;
 use Ifnc\Tads\Helper\Transaction;
 
-class AprovarPacoteController implements IController
+class EditarValorPacoteController
 {
 
     public function request(): void
     {
         Transaction::open();
-        $aprovar = Pacote::find($_GET["id"]);
-        $aprovar->status = "Aprovado";
-        $aprovar->store();
+        $pacote = Pacote::find($_POST["id"]);
+        $pacote->valorPacote = $_POST['valor'];
+        $pacote->store();
 
         Transaction::close();
         header('Location: /listar-pacote', true, 302);

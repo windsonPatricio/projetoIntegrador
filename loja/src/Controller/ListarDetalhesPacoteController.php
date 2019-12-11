@@ -2,10 +2,12 @@
 
 namespace Ifnc\Tads\Controller;
 use Ifnc\Tads\Entity\Estadia;
+use Ifnc\Tads\Entity\Roteiro;
+use Ifnc\Tads\Entity\Usuario;
 use Ifnc\Tads\Helper\Render;
 use Ifnc\Tads\Helper\Transaction;
 
-class ListarDetalhesPacoteController implements IController
+class ListarEstadiaController implements IController
 {
     public function request(): void
     {
