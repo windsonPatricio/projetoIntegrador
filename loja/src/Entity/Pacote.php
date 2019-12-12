@@ -13,6 +13,8 @@ class Pacote extends Record
         public $quantidadeMax;
         public $status;
         public $valorPacote;
+        public $dataInicio;
+        public $dataFim;
         public $estadias;
         public $trechos;
         public $transportes;

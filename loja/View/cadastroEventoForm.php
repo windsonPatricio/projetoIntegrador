@@ -15,6 +15,7 @@
                 <select id="inputState" name="tipo" class="form-control">
                     <option selected>Selecione...</option>
                     <option>Show musical</option>
+                    <option>Ponto turistico</option>
                     <option>Festa Religiosa</option>
                     <option>Parque de Diversao</option>
                     <option>City tur</option>

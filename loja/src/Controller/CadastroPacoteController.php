@@ -21,6 +21,9 @@ class CadastroPacoteController implements IController
         $pacote->nome = $_POST['nome'];
         $pacote->quantidadeMax = $_POST['quantidadeMax'];
         $pacote->status = 'em analise';
+        $pacote->valorPacote = $_POST['valor'];
+        $pacote->dataInicio = $_POST['dataInicio'];
+        $pacote->dataFim = $_POST['dataFim'];
         $pacote->dataCadastro =  date('d-m-Y');
 
         Transaction::open();

@@ -55,8 +55,9 @@
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/desk.jpg"></a></div>
                         <div class="col">
-                            <h3 class="name"><?=$pacote->nome, " ", $pacote->quantidadeMax?> </h3>
-                            <p class="description">hospedagem em valor <b><?=$pacote->valorPacote?></b></p>
+                            <h4 class="name"> Nome: <?=$pacote->nome?> </h4>
+                            <h6 class="periodo"> Periodo: <?=$pacote->dataInicio , "à", $pacote->dataFim?> </h6>
+                            <p class="description">Valor do Pacote: <b><?=$pacote->valorPacote?></b></p>
                             <button type="submit" class="btn btn-dark" href="/login/">Ver detalhes</button>
                         </div>
                     </div>

@@ -12,10 +12,10 @@ require "../vendor/autoload.php";
 Transaction::open();
 
 $pacote = PacoteMapper::find(3);
-$despesa1 = $pacote->estadias[0]->estadia_id->valorDiaria;
-$despesa2 = $pacote->transportes[0]->transporte_id->valorFrete;
+$pacote->estadias[0]->estadia_id->estadia->nome;
 
-var_dump($despesa1);
+
+var_dump($pacote);
 
 
 

@@ -14,7 +14,22 @@
                          <label for="inputAddress2">Quantidade de Passageiros do pacote</label>
                          <input type="text" class="form-control" name="quantidadeMax" id="inputAddress2" placeholder="Quantidade">
                     </div>
+                     <div class="form-group col-md-4">
+                         <label for="inputCity">Valor do Pacote</label>
+                         <input type="text" name="valor" class="form-control" id="inputCity" placeholder="valor Incial">
+                     </div>
              </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">Data de inicio</label>
+                    <input type="" name="dataInicio" class="form-control" id="inputCity" placeholder="Data do Evento" maxlength="10" OnKeyPress="formatar('##/##/####', this)">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputCity">Data de fim</label>
+                    <input type="" name="dataFim" class="form-control" id="inputCity" placeholder="Data do Evento" maxlength="10" OnKeyPress="formatar('##/##/####', this)">
+                </div>
+            </div>
+
 
                 <br>
                 <button type="submit"  class="btn btn-primary" >Cadastrar</button>

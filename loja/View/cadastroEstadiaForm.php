@@ -68,7 +68,7 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="inputCity">Valor da Diaria</label>
-                <input type="text" name="valorDiaria" class="form-control" id="inputCity" maxlength="6" OnKeyPress="formatar('###,##', this)">
+                <input type="text" name="valorDiaria" class="form-control" id="inputCity">
             </div>
             <div class="form-group col-md-6">
                 <label for="inputCity">Telefone</label>

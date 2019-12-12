@@ -1,5 +1,8 @@
 <div class="my-3 p-3 bg-white rounded shadow-sm">
     <div class="container">
+        <br>
+        <h3> INCLUIR ESTADIA AO PACOTE </h3>
+        <br>
         <form action="/adicionar-estadia" method="post">
             <div class="form-row">
                 <div class="form-group col-md-2">
