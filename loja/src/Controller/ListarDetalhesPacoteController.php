@@ -1,13 +1,11 @@
 <?php
 
 namespace Ifnc\Tads\Controller;
-use Ifnc\Tads\Entity\Estadia;
-use Ifnc\Tads\Entity\Roteiro;
-use Ifnc\Tads\Entity\Usuario;
 use Ifnc\Tads\Helper\Render;
 use Ifnc\Tads\Helper\Transaction;
+use Ifnc\Tads\Mapper\PacoteMapper;
 
-class ListarEstadiaController implements IController
+class ListarDetalhesPacoteController implements IController
 {
     public function request(): void
     {
@@ -15,13 +13,14 @@ class ListarEstadiaController implements IController
         echo Render::html(
             [
                 "cabecalho.php",
-                "listar-estadia.php",
+                "listar-detalhes-pacote.php",
                 "rodape.php"
             ],
             [
-                "estadia" => Estadia::all(),
-                "titulo"=> "Lista de Estadias"
+                "pacotes"=> PacoteMapper::find($_GET['id']),
+                "titulo"=> "Detalhes Pacote"
             ]
         );
+        header('Location: /detalhar-pacote', true, 302);
     }
 }

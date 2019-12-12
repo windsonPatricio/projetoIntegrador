@@ -1,44 +1,21 @@
 <?php
 
-use Ifnc\Tads\Entity\Cliente;
-use Ifnc\Tads\Entity\Estadia;
-use Ifnc\Tads\Entity\Roteiro;
-use Ifnc\Tads\Entity\TipoUsuario;
-use Ifnc\Tads\Entity\Venda;
+
 use Ifnc\Tads\Helper\Transaction;
-use Ifnc\Tads\Mapper\VendaMapper;
-use Symfony\Component\Yaml\Yaml;
+use Ifnc\Tads\Mapper\PacoteMapper;
+
 
 require "../vendor/autoload.php";
 
-//$hash =  password_hash('123', PASSWORD_ARGON2I);
-
-//echo $hash."<br>";
-
-//echo password_verify('143',$hash);
-
-
 
 
 Transaction::open();
-$coisa->store();
-Transaction::close();
 
-/*nada->id=2;
-$nada->tipo = "Agente";
+$pacote = PacoteMapper::find(3);
+$despesa1 = $pacote->estadias[0]->estadia_id->valorDiaria;
+$despesa2 = $pacote->transportes[0]->transporte_id->valorFrete;
 
-Transaction::open();
-$nada->store();
-Transaction::close();
-
-$nada->id=3;
-$nada->tipo = "Cliente";
-
-Transaction::open();
-$nada->store();
-Transaction::close();
-*/
-
+var_dump($despesa1);
 
 
 

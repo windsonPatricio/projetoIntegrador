@@ -31,11 +31,14 @@
 
 /aprovar-pacote: AprovarPacoteController
 /reprovar-pacote: ReprovarPacoteController
+/cancelar-pacote: CancelarPacoteController
 
 /editar-produto-form: EditarProdutoFormController
 /editar-produto:  EditarProdutoController
 /editar-valor-form: EditarValorPacoteFormController
 /editar-valor:  EditarValorPacoteController
+
+/detalhar-pacote: ListarDetalhesPacoteController
 
 /404found:  path404Controller
 

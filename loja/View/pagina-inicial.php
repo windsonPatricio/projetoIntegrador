@@ -50,7 +50,7 @@
 
     <div class="row projects">
         <?php foreach($pacotes as $pacote){
-            if(strcmp($pacote->status, "Reprovado" )){ ?>
+            if(strcmp($pacote->status,"Reprovado" )){ ?>
                 <div class="col-sm-6 item">
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/desk.jpg"></a></div>

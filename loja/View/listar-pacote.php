@@ -19,6 +19,7 @@
         <?php foreach($pacote as $pacotes){?>
             <?php if ($usuario->tipoUsuario==1){?>
             <tr>
+                <?php if($pacotes->status!="Cancelado"){ ?>
                 <th scope="row"><?=$pacotes->id?></th>
                 <td><?=$pacotes->nome?></td>
                 <td><?=$pacotes->quantidadeMax?></td>
@@ -32,6 +33,7 @@
                     <a href="\aprovar-pacote?id=<?=$pacotes->id?>" class="fas fa-check text-success text-decoration-none mr-2"></a>
                     <a href="\reprovar-pacote?id=<?=$pacotes->id?>" class="fas fa-times text-danger text-decoration-none mr-2"></a>
                 </td>
+                    <?php } ?>
             </tr>
                 <?php } else { ?>
             <tr>
@@ -46,7 +48,8 @@
                     <a href="\adicionar-estadia-form?id=<?=$pacotes->id?>" class="fas fa-hospital-o text-dark text-decoration-none mr-2"></a>
                     <a href="\adicionar-transporte-form?id=<?=$pacotes->id?>" class="fas fa-bus text-dark text-decoration-none mr-2"></a>
                     <a href="\adicionar-trecho-form?id=<?=$pacotes->id?>" class="fas fa-chevron-circle-up text-dark text-decoration-none mr-2"></a>
-                    <a href="\editar-produto-form?id=<?=$pacotes->id?>" class="fas fa-list text-dark text-decoration-none mr-2"></a>
+                    <a href="\cancelar-pacote?id=<?=$pacotes->id?>" class="fas fa-trash text-dark text-decoration-none mr-2"></a>
+                    <a href="\detalhar-pacote?id=<?=$pacotes->id?>" class="fas fa-list text-dark text-decoration-none mr-2"></a>
                 </td>
             </tr>
                 <?php } ?>

@@ -9,11 +9,10 @@ use Ifnc\Tads\Helper\Record;
 class Local extends Record
 {
     public $id;
-    public $nome;
-    public $endereco;
-    public $valorIngresso;
     public $cidade;
     Public $estado;
+    public $valorIngresso;
+
 
 
 }

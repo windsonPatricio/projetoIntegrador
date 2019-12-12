@@ -26,14 +26,14 @@
             <div class="form-row">
                 <div class="form-group col-md-3">
                     <label for="inputCity">Valor de Entrada</label>
-                    <input type="text" name="valor" class="form-control" id="inputCity" placeholder="(se houver)" maxlength="10" OnKeyPress="formatar('##/##/####', this)">
+                    <input type="text" name="valor" class="form-control" id="inputCity" placeholder="(se houver)">
                 </div>
                 <div class="form-group col-md-5">
                     <label for="inputState">Cidade a Ser Visitada</label>
                     <select id="inputState" name="trechoLocal" class="form-control">
                         <option>Selecione...</option>
                         <?php foreach($locais as $local){?>
-                            <option value="<?=$local->id?>"><?= $local->nome," ", $local->estado?> </option>
+                            <option value="<?=$local->id?>"><?= $local->cidade," ", $local->estado?> </option>
                         <?php } ?>
                     </select>
                 </div>

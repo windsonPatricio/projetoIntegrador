@@ -7,11 +7,9 @@
         <thead>
         <tr>
             <th scope="col">#</th>
-            <th scope="col">nome</th>
-            <th scope="col">endereco</th>
-            <th scope="col">valor da ingresso</th>
             <th scope="col">cidade</th>
             <th scope="col">estado</th>
+            <th scope="col">valor da ingresso</th>
             <th scope="col">dataCadastro</th>
         </tr>
         </thead>
@@ -19,11 +17,9 @@
         <?php foreach($local as $locais){?>
             <tr>
                 <th scope="row"><?=$locais->id?></th>
-                <td><?=$locais->nome?></td>
-                <td><?=$locais->endereco?></td>
-                <td><?=$locais->valorIngresso?></td>
                 <td><?=$locais->cidade?></td>
                 <td><?=$locais->estado?></td>
+                <td><?=$locais->valorIngresso?></td>
                 <td><?=$locais->dataCadastro?></td>
                 <td></td>
 

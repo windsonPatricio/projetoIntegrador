@@ -6,8 +6,8 @@ use Ifnc\Tads\Helper\Record;
 
 class Pacote_Estadia extends Record
 {
-    public $codigo;
+    public $id;
     public $dataReserva;
-    public $hotel_id;
+    public $estadia_id;
     public $pacote_id;
 }
