@@ -18,22 +18,22 @@
         </tr>
         </thead>
         <tbody>
-        <?php foreach($estadia as $estadias){?>
+        <?php foreach($estadias as $estadia){?>
             <tr>
-                <th scope="row"><?=$estadias->id?></th>
-                <td><?=$estadias->nome?></td>
-                <td><?=$estadias->endereco?></td>
-                <td><?=$estadias->telefone?></td>
-                <td><?=$estadias->valorDiaria?></td>
-                <td><?=$estadias->cidade?></td>
-                <td><?=$estadias->estado?></td>
-                <td><?=$estadias->tipo?></td>
-                <td><?=$estadias->dataCadastro?></td>
+                <th scope="row"><?=$estadia->id?></th>
+                <td><?=$estadia->nome?></td>
+                <td><?=$estadia->endereco?></td>
+                <td><?=$estadia->telefone?></td>
+                <td><?=$estadia->valorDiaria?></td>
+                <td><?=$estadia->cidade?></td>
+                <td><?=$estadia->estado?></td>
+                <td><?=$estadia->tipo?></td>
+                <td><?=$estadia->dataCadastro?></td>
                 <td></td>
 
                 <td>
-                    <a href="\apagar-estadia?id=<?=$estadias->id?>" class="fas fa-question-circle text-dark text-decoration-none mr-2"></a>
-                    <a href="\editar-produto-form?id=<?=$estadias->id?>" class="fas fa-edit text-dark text-decoration-none mr-2"></a>
+                    <a href="\apagar-estadia?id=<?=$estadia->id?>" class="fas fa-question-circle text-dark text-decoration-none mr-2"></a>
+                    <a href="\editar-produto-form?id=<?=$estadia->id?>" class="fas fa-edit text-dark text-decoration-none mr-2"></a>
                 </td>
             </tr>
         <?php } ?>
