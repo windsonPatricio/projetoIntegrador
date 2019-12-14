@@ -11,11 +11,11 @@ require "../vendor/autoload.php";
 
 Transaction::open();
 
-$pacote = PacoteMapper::find(3);
-$pacote->estadias[0]->estadia_id->estadia->nome;
+$pacote = PacoteMapper::find(5);
+var_dump($pacote->estadias->estadia_id->estadia->cidade);
 
 
-var_dump($pacote);
+//var_dump($pacote);
 
 
 
