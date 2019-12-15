@@ -15,18 +15,17 @@
         </tr>
         </thead>
         <tbody>
-        <?php foreach($pacotes as $pacote){ ?>
-            <?php $teste = $pacote->estadias[0]->estadia_id->nome ?>
+        <?php foreach($pacote as $pacotes){ ?>
             <tr>
                 <th scope="row"> </th>
-                <td><?=$teste?></td>
+                <td> <?= $pacotes->estadia_id->nome ?></td>
 
 
                 <td></td>
 
                 <td>
-                    <a href="\apagar-evento?id=<?=$evento->id?>" class="fas fa-question-circle text-dark text-decoration-none mr-2"></a>
-                    <a href="\editar-produto-form?id=<?=$evento->id?>" class="fas fa-edit text-dark text-decoration-none mr-2"></a>
+                    <a href="\apagar-evento" class="fas fa-question-circle text-dark text-decoration-none mr-2"></a>
+                    <a href="\editar-produto-form" class="fas fa-edit text-dark text-decoration-none mr-2"></a>
                 </td>
             </tr>
         <?php } ?>

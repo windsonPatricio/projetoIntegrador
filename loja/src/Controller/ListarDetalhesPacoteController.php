@@ -10,6 +10,7 @@ class ListarDetalhesPacoteController implements IController
     public function request(): void
     {
         Transaction::open();
+        $pacotes = PacoteMapper::find($_GET['id']);
         echo Render::html(
             [
                 "cabecalho.php",
@@ -17,8 +18,9 @@ class ListarDetalhesPacoteController implements IController
                 "rodape.php"
             ],
             [
-                "pacotes"=> PacoteMapper::find($_GET['id']),
-                "titulo"=> "Detalhes Pacote"
+
+                "titulo"=> "Detalhes Pacote",
+                "pacote" =>  $pacotes->getEstadias()
             ]
         );
         header('Location: /detalhar-pacote', true, 302);
