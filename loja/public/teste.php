@@ -12,9 +12,9 @@ require "../vendor/autoload.php";
 Transaction::open();
 
 $pacote = PacoteMapper::find(5);
-$a = $pacote->getEstadias();
-echo $a[0]->dataReserva;
-
+$a = $pacote->getEstadia;
+echo $pacote->pacote_id->nome;
+var_dump($pacote);
 
 
 

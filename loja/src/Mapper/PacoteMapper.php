@@ -27,6 +27,11 @@ class PacoteMapper
            $pct_transporte->transporte_id = Transporte::find($pct_transporte->transporte_id);
            $pacote->addTransporte($pct_transporte);
        }
+       foreach ($pct_trechos as $pct_trecho){
+           $pct_trecho->trechoLocal = Local::find($pct_trecho->trechoLocal);
+           $pacote->addTrecho($pct_trecho);
+       }
+
 
        return $pacote;
    }

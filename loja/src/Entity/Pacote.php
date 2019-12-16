@@ -18,12 +18,14 @@ class Pacote extends Record
         public $estadias;
         public $trechos;
         public $transportes;
+        public $eventos;
 
         public function __construct()
         {
             $this->estadias=[];
             $this->trechos=[];
             $this->transportes=[];
+            $this->eventos=[];
         }
 
         public function addEstadia($estadia)
@@ -36,6 +38,7 @@ class Pacote extends Record
             $this->trechos[] = $trecho;
         }
 
+
         public function addTransporte($transporte)
         {
             $this->transportes[] = $transporte;
@@ -46,7 +49,8 @@ class Pacote extends Record
             return $this->estadias;
         }
 
-        public function getTrecho()
+
+        public function getTrechos()
         {
             return $this->trechos;
         }
