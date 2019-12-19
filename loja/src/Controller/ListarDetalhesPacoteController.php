@@ -22,7 +22,8 @@ class ListarDetalhesPacoteController implements IController
                 "titulo"=> "Detalhes Pacote",
                 "estadias" =>  $pacote->getEstadias(),
                 "transportes"=> $pacote->getTransportes(),
-                "trechos"=> $pacote->getTrechos()
+                "trechos"=> $pacote->getTrechos(),
+                 "usuario" => $_SESSION['usuario']
             ]
         );
         header('Location: /detalhar-pacote', true, 302);

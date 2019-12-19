@@ -32,6 +32,7 @@
                 <td>
                     <a href="\aprovar-pacote?id=<?=$pacotes->id?>" class="fas fa-check text-success text-decoration-none mr-2"></a>
                     <a href="\reprovar-pacote?id=<?=$pacotes->id?>" class="fas fa-times text-danger text-decoration-none mr-2"></a>
+                    <a href="\detalhar-pacote?id=<?=$pacotes->id?>" class="fas fa-list text-dark text-decoration-none mr-2"></a>
                 </td>
                     <?php } ?>
             </tr>

@@ -88,8 +88,14 @@
             <?php } ?>
             </tbody>
         </table>
-        <br>
-        <a class="btn btn-primary" href="/listar-pacote">Voltar</a>
-        <br>
+        <?php if ($usuario->tipoUsuario==1||$usuario->tipoUsuario==2){ ?>
+            <br>
+                <a class="btn btn-primary" href="/listar-pacote">Voltar</a>
+            <br>
+        <?php } else{ ?>
+            <br>
+                <a class="btn btn-success" href="/portal">Demonstrar Interesse</a>
+            <br>
+        <?php } ?>
     </div>
 </body>

@@ -50,7 +50,9 @@
 
     <div class="row projects">
         <?php foreach($pacotes as $pacote){
-            if(strcmp($pacote->status,"Reprovado" )){ ?>
+            if($pacote->status!="Aprovado" ){ ?>
+
+            <?php } else { ?>
                 <div class="col-sm-6 item">
                     <div class="row">
                         <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="Designer/img/desk.jpg"></a></div>
@@ -58,13 +60,11 @@
                             <h4 class="name"> Nome: <?=$pacote->nome?> </h4>
                             <h6 class="periodo"> Periodo: <?=$pacote->dataInicio , "à", $pacote->dataFim?> </h6>
                             <p class="description">Valor do Pacote: <b><?=$pacote->valorPacote?></b></p>
-                            <button type="submit" class="btn btn-dark" href="/login/">Ver detalhes</button>
+                            <a  class="btn btn-dark" href="\detalhar-pacote?id=<?=$pacote->id?>">Ver detalhes</a>
                         </div>
                     </div>
                 </div>
-            <?php } else {
-
-              } ?>
+             <?php } ?>
         <?php } ?>
             </div>
         </div>
